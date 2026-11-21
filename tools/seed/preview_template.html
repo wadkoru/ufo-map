@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Уфологічна мапа — прев'ю</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+/* VOICE: нічний польовий журнал. IDEA: штабна карта DeepState. PICTURE: сама карта на весь екран.
+   COLOUR: майже чорний, кольорові маркери категорій. TYPE: системний sans. LAYOUT: карта + бічна панель (знизу на телефоні). */
+:root{--bg:#0e1116;--panel:#151a22;--ink:#e8ecf2;--mute:#9aa4b2;--line:#263040}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+#app{display:grid;grid-template-columns:340px 1fr;height:100%}
+aside{background:var(--panel);border-right:1px solid var(--line);overflow:auto;padding:18px}
+h1{font-size:20px;margin:0 0 4px}
+.sub{color:var(--mute);font-size:13px;margin:0 0 16px}
+.grp{margin:0 0 16px}.grp h2{font-size:13px;color:var(--mute);font-weight:600;margin:0 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:6px 11px;font:inherit;font-size:13px;cursor:pointer;min-height:34px}
+.chip[aria-pressed=true]{background:#24304a;border-color:#4a6aa8}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+#list{list-style:none;margin:0;padding:0}
+#list li{padding:9px 4px;border-top:1px solid var(--line);cursor:pointer}
+#list li:hover{background:#1b2230}
+#list .t{font-weight:600}#list .m{color:var(--mute);font-size:12px}
+#map{height:100%}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#1a2030;color:var(--ink)}
+.leaflet-popup-content{margin:12px 14px;max-width:300px}
+.pop h3{margin:0 0 4px;font-size:16px}.pop .m{color:var(--mute);font-size:12px;margin-bottom:6px}
+.pop .warn{background:#5a1d1d;color:#ffd7d7;padding:6px 8px;border-radius:6px;font-size:12px;margin:6px 0}
+.pop a{color:#8fc1ff;word-break:break-all;font-size:12px}
+.badge{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;border:1px solid var(--line);margin-left:4px}
+.note{color:var(--mute);font-size:12px;border-top:1px solid var(--line);padding-top:12px}
+@media(max-width:700px){#app{grid-template-columns:1fr;grid-template-rows:60% 40%}aside{order:2;border-right:0;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<div id="app">
+<aside>
+  <h1>Уфологічна мапа</h1>
+  <p class="sub" id="count"></p>
+  <div class="grp"><h2>Країна</h2><div class="chips" id="countries"></div></div>
+  <div class="grp"><h2>Категорія</h2><div class="chips" id="cats"></div></div>
+  <ul id="list"></ul>
+  <p class="note">Повідомлення уфологів, езотериків і очевидців — не наукові факти. Кола навколо точок показують, наскільки точні координати. Сірим позначено пояснені випадки.</p>
+</aside>
+<div id="map"></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+{
+const DATA = __DATA__;
+const CATS = {
+  place_of_power:{uk:"Місце сили",c:"#b388ff"},
+  energy_anomaly:{uk:"Енергетична аномалія",c:"#ffd54f"},
+  ufo_sighting:{uk:"НЛО",c:"#4fc3f7"},
+  crop_circle:{uk:"Кругові знаки",c:"#81c784"},
+  paranormal:{uk:"Паранормальне",c:"#ff8a65"},
+  magnetic_anomaly:{uk:"Магнітна аномалія",c:"#f06292"},
+  other:{uk:"Інше",c:"#bdbdbd"}
+};
+const CRED = ["","чутки","один очевидець","кілька свідків","фото/відео","вимірювання"];
+const STATUS = {published:"",disputed:"спірна",debunked:"пояснена"};
+const COUNTRIES = {all:"Усі",ua:"Україна",nl:"Нідерланди"};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const state = {country:"all", cats:new Set(Object.keys(CATS))};
+
+const map = L.map("map",{zoomControl:true}).setView([50.5,18],5);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{
+  attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains:"abcd",maxZoom:19}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+
+function popup(p){
+  const cat = CATS[p.category] || CATS.other;
+  const st = STATUS[p.status] ? `<span class="badge">${STATUS[p.status]}</span>` : "";
+  return `<div class="pop"><h3>${esc(p.title.uk)}</h3>
+  <div class="m"><span class="dot" style="background:${cat.c}"></span>${cat.uk} · ${esc(p.region)}${p.observed_at?` · ${esc(p.observed_at)}`:""}${st}</div>
+  ${p.safety_note?`<div class="warn">${esc(p.safety_note)}</div>`:""}
+  <div>${esc(p.description.uk)}</div>
+  <div class="m" style="margin-top:6px">Достовірність: ${p.credibility}/5 (${CRED[p.credibility]}) · точність ±${p.precision_m>=1000?(p.precision_m/1000)+" км":p.precision_m+" м"}</div>
+  ${p.sources.map(u=>`<div><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></div>`).join("")}</div>`;
+}
+function visible(){
+  return DATA.filter(f => (state.country==="all" || f.properties.id.startsWith(state.country+"-")) && state.cats.has(f.properties.category));
+}
+function render(){
+  layer.clearLayers();
+  const feats = visible();
+  const list = document.getElementById("list");
+  list.innerHTML = feats.map((f,i)=>{const p=f.properties,c=(CATS[p.category]||CATS.other).c;
+    return `<li data-i="${i}"><div class="t"><span class="dot" style="background:${c}"></span>${esc(p.title.uk)}</div><div class="m">${esc(p.region)}${p.observed_at?" · "+esc(p.observed_at):""}</div></li>`}).join("");
+  const markers = feats.map(f=>{
+    const p=f.properties,[lng,lat]=f.geometry.coordinates,grey=p.status==="debunked";
+    const c = grey ? "#6b7280" : (CATS[p.category]||CATS.other).c;
+    if(p.precision_m>=500) L.circle([lat,lng],{radius:p.precision_m,color:c,weight:1,opacity:.5,fillOpacity:.08,interactive:false}).addTo(layer);
+    return L.circleMarker([lat,lng],{radius:7,color:"#0e1116",weight:2,fillColor:c,fillOpacity:.95}).bindPopup(popup(p)).addTo(layer);
+  });
+  list.querySelectorAll("li").forEach(li=>li.addEventListener("click",()=>{
+    const m=markers[+li.dataset.i]; map.setView(m.getLatLng(),Math.max(map.getZoom(),9)); m.openPopup();}));
+  document.getElementById("count").textContent = `Точок на карті: ${feats.length} з ${DATA.length}`;
+  if(feats.length) map.fitBounds(L.featureGroup(markers).getBounds(),{padding:[30,30],maxZoom:9});
+}
+function chips(){
+  document.getElementById("countries").innerHTML = Object.entries(COUNTRIES).map(([k,v])=>
+    `<button class="chip" data-k="${k}" aria-pressed="${state.country===k}">${v}</button>`).join("");
+  document.getElementById("cats").innerHTML = Object.entries(CATS).filter(([k])=>DATA.some(f=>f.properties.category===k)).map(([k,v])=>
+    `<button class="chip" data-c="${k}" aria-pressed="${state.cats.has(k)}"><span class="dot" style="background:${v.c}"></span>${v.uk}</button>`).join("");
+  document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{state.country=b.dataset.k;chips();render();});
+  document.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{const c=b.dataset.c;state.cats.has(c)?state.cats.delete(c):state.cats.add(c);chips();render();});
+}
+chips(); render();
+}
+</script>
+</body>
+</html>

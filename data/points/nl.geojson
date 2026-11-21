@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.58,
+          51.578
+        ]
+      },
+      "properties": {
+        "id": "nl-nb-0001",
+        "title": {
+          "uk": "Кругові знаки в Хувені",
+          "en": "Hoeven crop circles"
+        },
+        "description": {
+          "uk": "З 1996 року біля Хувена майже щороку «знаходить» кола медіум Роббе ван ден Брук (напр., велика формація на Palingstraat, червень 2018). Скептики вказують на його доведені фальсифікації; авторство невідоме.",
+          "en": "Since 1996 medium Robbert van den Broeke has 'found' formations near Hoeven almost yearly (e.g. a large one on Palingstraat, June 2018). Skeptics cite his exposed fakes; makers unknown."
+        },
+        "category": "crop_circle",
+        "observed_at": "2018-06-10",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://www.omroepbrabant.nl/nieuws/2768527/enorme-graancirkels-gevonden-in-hoeven-maar-wie-heeft-ze-gemaakt-video",
+          "https://kloptdatwel.nl/?p=19944",
+          "https://ufology.patrickgross.org/htm/crophoeven.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Noord-Brabant",
+        "tags": [
+          "Робберт ван ден Брук"
+        ],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.552,
+          51.585
+        ]
+      },
+      "properties": {
+        "id": "nl-nb-0002",
+        "title": {
+          "uk": "Спіраль між Оуденбосом і Хувеном",
+          "en": "Oudenbosch–Hoeven spiral"
+        },
+        "description": {
+          "uk": "Формація в траві, 28 квітня 2015; 7 травня на тому ж полі з'явилася ще одна. Знайшов той самий медіум.",
+          "en": "Grass formation, 28 Apr 2015, with another in the same field on 7 May; found by the same medium."
+        },
+        "category": "crop_circle",
+        "observed_at": "2015-04-28",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://cropcircleconnector.com/2015/Oudenbosch/Oudenbosch2015a.html",
+          "https://cropcircleconnector.com/2015/Hoeven/Hoeven2015a.html"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Noord-Brabant",
+        "tags": [],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.515,
+          51.615
+        ]
+      },
+      "properties": {
+        "id": "nl-nb-0003",
+        "title": {
+          "uk": "Коло в Стандарбейтені",
+          "en": "Standdaarbuiten crop circle"
+        },
+        "description": {
+          "uk": "Формація в молодій пшениці близько опівночі 3–4 червня 2014; за звітом BLT, були два свідки.",
+          "en": "Formation in young wheat around midnight 3–4 June 2014; BLT report claims two witnesses."
+        },
+        "category": "crop_circle",
+        "observed_at": "2014-06-04",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://cropcircleconnector.com/2014/Standdaarbuiten/Standdaarbuiten2014a.html"
+        ],
+        "credibility": 2,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Noord-Brabant",
+        "tags": [],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.54,
+          51.562
+        ]
+      },
+      "properties": {
+        "id": "nl-nb-0004",
+        "title": {
+          "uk": "Коло в Босхенгофді",
+          "en": "Bosschenhoofd crop circle"
+        },
+        "description": {
+          "uk": "Формація, про яку повідомили 5 квітня 2014.",
+          "en": "Formation reported on 5 April 2014."
+        },
+        "category": "crop_circle",
+        "observed_at": "2014-04-04",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://cropcircleconnector.com/2014/Bosschenhoofd/Bosschenhoofd2014a.html"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Noord-Brabant",
+        "tags": [],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0697,
+          52.3343
+        ]
+      },
+      "properties": {
+        "id": "nl-nh-0001",
+        "title": {
+          "uk": "НЛО над замком Мейдерслот",
+          "en": "UFO over Muiderslot Castle"
+        },
+        "description": {
+          "uk": "25 травня 2013 фотографиня випадково зняла в HDR трубчастий об'єкт з S-подібним «плавником». Аналітик не знайшов ознак монтажу; скептики вважають, що це комаха біля об'єктива.",
+          "en": "On 25 May 2013 a photographer accidentally captured a tubular object with an S-shaped fin in HDR. No signs of editing found; skeptics say it was an insect near the lens."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "2013-05-25",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://www.livescience.com/37349-ufo-netherlands-hdr-photo-ben-hansen.html",
+          "https://nltimes.nl/node/14046"
+        ],
+        "credibility": 4,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Noord-Holland",
+        "tags": [
+          "фото"
+        ],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.276,
+          52.127
+        ]
+      },
+      "properties": {
+        "id": "nl-ut-0001",
+        "title": {
+          "uk": "Трикутник над авіабазою Сустерберг",
+          "en": "Soesterberg air base triangle"
+        },
+        "description": {
+          "uk": "Рано-вранці 3 лютого 1979 року над авіабазою пролетів величезний чорний трикутний об'єкт; його бачили 12 військових. Вважається найважливішим НЛО-інцидентом Нідерландів; пояснення немає.",
+          "en": "Early on 3 Feb 1979 a huge black triangular object flew over the air base, seen by 12 servicemen. Considered the Netherlands' key UFO case; unexplained."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "1979-02-03",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://www.vera-groningen.nl/events/the-ufos-of-soesterberg/?lang=en",
+          "https://www.imdb.com/title/tt27205596"
+        ],
+        "credibility": 3,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Utrecht",
+        "tags": [
+          "військові",
+          "чорний трикутник"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.066,
+          53.006
+        ]
+      },
+      "properties": {
+        "id": "nl-fr-0001",
+        "title": {
+          "uk": "Хвиля спостережень у Горредейку",
+          "en": "Gorredijk UFO wave"
+        },
+        "description": {
+          "uk": "З 11 січня 1974 року мешканці фризького села місяцями повідомляли про дивні світла в небі; про хвилю писали газети. Історію реконструював дослідник Таде Смедес.",
+          "en": "From 11 Jan 1974 villagers reported strange lights for months; covered widely by newspapers and reconstructed by researcher Taede Smedes."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "1974-01-11",
+        "added_at": "2026-11-21",
+        "source_type": "eyewitness",
+        "sources": [
+          "https://www.voxweb.nl/en/how-a-frisian-village-became-obsessed-with-ufos"
+        ],
+        "credibility": 3,
+        "precision_m": 3000,
+        "reporter": "seed",
+        "region": "Friesland",
+        "tags": [
+          "хвиля"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.98,
+          51.84
+        ]
+      },
+      "properties": {
+        "id": "nl-zh-0001",
+        "title": {
+          "uk": "Невідомий «реактивний літак» біля Харінгвліта",
+          "en": "Haringvliet unknown jet"
+        },
+        "description": {
+          "uk": "У розсекречених у 2026 році файлах Пентагону: троє американських членів екіпажу бачили над узбережжям біля гирла Харінгвліта невідомий об'єкт з надзвичайною швидкістю й маневреністю. Рік у джерелах різниться (1947 або 1948).",
+          "en": "Pentagon files released in 2026: three US crew saw an unknown jet-like object with extraordinary speed off the Haringvliet mouth. Sources give 1947 or 1948."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "1948",
+        "added_at": "2026-11-21",
+        "source_type": "media",
+        "sources": [
+          "https://informedclearly.com/en/space/51116/pentagon-ufo-files-declassified-2025",
+          "https://www.bright.nl/nieuws/2087266/dit-wordt-over-nederland-gezegd-in-ufo-documenten-van-amerika.html"
+        ],
+        "credibility": 3,
+        "precision_m": 10000,
+        "reporter": "seed",
+        "region": "Zuid-Holland",
+        "tags": [
+          "Пентагон",
+          "архів"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.797742,
+          52.930231
+        ]
+      },
+      "properties": {
+        "id": "nl-dr-0001",
+        "title": {
+          "uk": "Гунебед D27 (Боргер)",
+          "en": "Hunebed D27 (Borger)"
+        },
+        "description": {
+          "uk": "Найбільший мегалітичний дольмен Нідерландів (22,6 м, ~3000 р. до н.е.). За фольклором Дренте, у гунебедах жили «білі жінки» (witte wieven).",
+          "en": "Largest megalithic dolmen in the Netherlands (22.6 m, c. 3000 BC). Drenthe folklore says Witte Wieven lived in the dolmens."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://www.dehondsrug.nl/hotspots/the-largest-hunebed/?lang=en",
+          "https://studenttheses.universiteitleiden.nl/access/item%3A3800061/view"
+        ],
+        "credibility": 1,
+        "precision_m": 50,
+        "reporter": "seed",
+        "region": "Drenthe",
+        "tags": [
+          "мегаліт",
+          "witte wieven"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.225,
+          52.165
+        ]
+      },
+      "properties": {
+        "id": "nl-gd-0001",
+        "title": {
+          "uk": "Віттевівенбулт (Ефде)",
+          "en": "Wittewievenbult (Eefde)"
+        },
+        "description": {
+          "uk": "«Пагорб білих жінок»: за місцевою легендою, щороку на Святвечір тут танцюють witte wieven.",
+          "en": "'White Women Hill': local legend says the Witte Wieven dance here every Christmas Eve."
+        },
+        "category": "paranormal",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Witte_Wieven"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Gelderland",
+        "tags": [
+          "witte wieven"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.465,
+          52.122
+        ]
+      },
+      "properties": {
+        "id": "nl-gd-0002",
+        "title": {
+          "uk": "Віттевейвенкейл (Бархем)",
+          "en": "Wittewijvenkuil (Barchem)"
+        },
+        "description": {
+          "uk": "Яма, де, за переказом, досі живуть три witte wieven.",
+          "en": "Pit where, according to legend, three Witte Wieven still live."
+        },
+        "category": "paranormal",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://www.iamexpat.nl/lifestyle/lifestyle-news/dutch-folklore-witte-wieven"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Gelderland",
+        "tags": [
+          "witte wieven"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.792,
+          51.757
+        ]
+      },
+      "properties": {
+        "id": "nl-gd-0003",
+        "title": {
+          "uk": "Дерево від лихоманки (Оверасселт)",
+          "en": "Fever Tree (Overasselt)"
+        },
+        "description": {
+          "uk": "Одне з «тонких місць» Гелдерланду, де, за віруваннями, межа між світами тонша; до дерева приходили лікуватися від лихоманки.",
+          "en": "One of Gelderland's 'thin places', where the line between worlds is believed thin; people came to cure fever."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://bergendal.wereldmuseum.nl/en/node/3385"
+        ],
+        "credibility": 1,
+        "precision_m": 1500,
+        "reporter": "seed",
+        "region": "Gelderland",
+        "tags": [
+          "thin place"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.937,
+          51.817
+        ]
+      },
+      "properties": {
+        "id": "nl-gd-0004",
+        "title": {
+          "uk": "Дейвелсберг (Берг-ен-Дал)",
+          "en": "Duivelsberg (Berg en Dal)"
+        },
+        "description": {
+          "uk": "«Чортова гора» — ще одне «тонке місце» Гелдерланду за версією Wereldmuseum.",
+          "en": "'Devil's Mountain', another Gelderland thin place featured by the Wereldmuseum."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://bergendal.wereldmuseum.nl/en/node/3385"
+        ],
+        "credibility": 1,
+        "precision_m": 800,
+        "reporter": "seed",
+        "region": "Gelderland",
+        "tags": [
+          "thin place"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.665,
+          52.04
+        ]
+      },
+      "properties": {
+        "id": "nl-gd-0005",
+        "title": {
+          "uk": "Кривавий камінь (Еде)",
+          "en": "Bloedsteen (Ede)"
+        },
+        "description": {
+          "uk": "«Тонке місце» в Еде за версією Wereldmuseum. Точне розташування каменя треба уточнити.",
+          "en": "Thin place in Ede featured by the Wereldmuseum; exact stone location to be confirmed."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://bergendal.wereldmuseum.nl/en/node/3385"
+        ],
+        "credibility": 1,
+        "precision_m": 3000,
+        "reporter": "seed",
+        "region": "Gelderland",
+        "tags": [
+          "thin place"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993,
+          52.1215
+        ]
+      },
+      "properties": {
+        "id": "nl-ut-0002",
+        "title": {
+          "uk": "Замок Де Гаар",
+          "en": "Kasteel de Haar"
+        },
+        "description": {
+          "uk": "Найбільший замок Нідерландів. За легендою, у каплиці й коридорах з'являється «Біла пані».",
+          "en": "Largest castle in the Netherlands; legend of a White Lady in the chapel and halls."
+        },
+        "category": "paranormal",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://occult-world.com/?p=176766"
+        ],
+        "credibility": 1,
+        "precision_m": 200,
+        "reporter": "seed",
+        "region": "Utrecht",
+        "tags": [
+          "привид"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    }
+  ]
+}

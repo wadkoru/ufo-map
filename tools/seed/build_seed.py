@@ -1,0 +1,355 @@
+"""Builds the seed dataset (data/points/ua.geojson, nl.geojson) for UFO Map.
+
+Every point follows schema/point.schema.json from the technical plan.
+Coordinates marked with a large precision_m are approximate (village/area level).
+"""
+import json
+from pathlib import Path
+
+ADDED = "2026-11-21"
+ROOT = Path(__file__).resolve().parents[2]
+OCCUPIED = "Тимчасово окупована територія — відвідування неможливе й небезпечне."
+
+
+def pt(id, lng, lat, title_uk, title_en, desc_uk, desc_en, category, source_type,
+       sources, credibility, precision_m, observed_at=None, tags=(), status="published",
+       safety_note=None, region=""):
+    props = {
+        "id": id,
+        "title": {"uk": title_uk, "en": title_en},
+        "description": {"uk": desc_uk, "en": desc_en},
+        "category": category,
+        "observed_at": observed_at,
+        "added_at": ADDED,
+        "source_type": source_type,
+        "sources": list(sources),
+        "credibility": credibility,
+        "precision_m": precision_m,
+        "reporter": "seed",
+        "region": region,
+        "tags": list(tags),
+        "media": [],
+        "status": status,
+    }
+    if safety_note:
+        props["safety_note"] = safety_note
+    return {"type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [round(lng, 6), round(lat, 6)]},
+            "properties": props}
+
+
+UA = [
+    pt("ua-zht-0001", 27.978, 51.302, "Кам'яне Село", "Stone Village (Kamiane Selo)",
+       "Близько 15 га величезних гранітних валунів у лісі біля Рудні-Замисловицької (колишній Олевський р-н). "
+       "За легендою — скам'яніле за жадібність село; на одному з каменів «Божий слід». "
+       "Геологи пов'язують скелі з розломами Українського щита.",
+       "About 15 ha of huge granite boulders in a forest near Rudnia-Zamyslovytska. Legend says it is a village "
+       "turned to stone for greed; one boulder bears the 'Footprint of God'. Geologists link the rocks to faults of the Ukrainian Shield.",
+       "place_of_power", "esoteric",
+       ["https://www.turpravda.org/places/ua/korosten/Urochishche_Kamennoe_Selo-s2714",
+        "https://travelsinua-prod.azurewebsites.net/en-US/object/130/stone-village",
+        "https://ekmair.ukma.edu.ua/handle/123456789/11353"],
+       1, 300, tags=["валуни", "легенди", "Полісся"], region="Житомирська обл."),
+    pt("ua-zht-0002", 28.06, 51.08, "Інцидент над ракетною базою (Усове/Білокоровичі)", "Missile base incident (Usove)",
+       "4 жовтня 1982 року над радянською ракетною базою, за розповідями, зависав НЛО, і ракети нібито самі перейшли в бойову готовність. "
+       "Відомий кейс світової уфології; офіційного підтвердження немає. База давно ліквідована, координати узагальнені до 5 км.",
+       "On 4 Oct 1982 a UFO reportedly hovered over a Soviet missile base and missiles allegedly activated. A well-known ufology case "
+       "with no official confirmation. The base is long gone; location generalised to 5 km.",
+       "ufo_sighting", "ufologist", ["https://en.wikipedia.org/wiki/UFO_sightings_in_Russia"],
+       2, 5000, observed_at="1982-10-04", tags=["військові", "СРСР"], status="disputed", region="Житомирська обл."),
+    pt("ua-kyc-0001", 30.4967, 50.3636, "Головна астрономічна обсерваторія НАН", "Main Astronomical Observatory, Kyiv",
+       "Звідси метеорна станція ГАО у 2022 році знімала денне небо й зафіксувала швидкі об'єкти («космікс» і «фантоми»), "
+       "яких автори не змогли ідентифікувати. Препринт не рецензувався; критики вважають, що частина об'єктів — військова техніка.",
+       "In 2022 the MAO meteor station filmed the daytime sky and recorded fast objects ('cosmics' and 'phantoms') the authors could not identify. "
+       "Preprint not peer-reviewed; critics suggest some were military hardware.",
+       "ufo_sighting", "measurement",
+       ["https://arxiv.org/abs/2208.11215v2", "https://www.livescience.com/ukraine-ufo-uap-report"],
+       5, 500, observed_at="2022-08-23", tags=["UAP", "наука"], status="disputed", region="м. Київ"),
+    pt("ua-kyo-0004", 30.10, 49.40, "Метеорна станція Винарівка", "Vynarivka meteor station",
+       "Друга станція двопунктових спостережень ГАО (база ~120 км від Києва). Синхронні камери використовували для оцінки висоти й швидкості UAP.",
+       "Second station of the MAO two-site setup (~120 km baseline from Kyiv); synchronised cameras estimated UAP altitude and speed.",
+       "ufo_sighting", "measurement", ["https://arxiv.org/pdf/2211.17085"],
+       5, 5000, observed_at="2022-11-13", tags=["UAP", "наука"], status="disputed", region="Київська обл."),
+    pt("ua-kyc-0002", 30.5448556, 50.3944528, "Лиса гора (Київ)", "Lysa Hora (Kyiv)",
+       "Найвідоміша «відьомська» гора: за переказами — місце шабашів і давнього капища; частини: Відьмин яр, Русалчине озеро, Мертвецький гай. "
+       "Нині ландшафтний парк, найменш відвідуваний у столиці.",
+       "Kyiv's legendary 'witch mountain': folklore of sabbaths and a pagan sanctuary (Witch Ravine, Mermaid Lake, Dead Man's Grove). Now a landscape park.",
+       "paranormal", "esoteric",
+       ["https://en.wikipedia.org/wiki/Lysa_Hora_(Kiev)",
+        "https://news.telegraf.com.ua/ukr/ukraina/2025-03-28/5903564-tse-mistse-prikhovue-bezlich-legend-shcho-mozhna-pobachiti-na-lisiy-gori-v-kievi-foto"],
+       1, 500, tags=["відьми", "капище"], region="м. Київ"),
+    pt("ua-kyc-0003", 30.508, 50.372, "Слід НЛО в Голосіївському лісі", "UFO trace in Holosiivskyi forest",
+       "Близько 2007 року езотерик сфотографував у лісі ділянку з поваленими деревами й «припеченими» рослинами та назвав її слідом НЛО. "
+       "Ліс він вважає геопатогенною зоною. Одне джерело, без перевірки.",
+       "Around 2007 an esoteric practitioner photographed fallen trees and 'scorched' plants here, calling it a UFO trace. Single unverified source.",
+       "ufo_sighting", "esoteric",
+       ["https://gazeta.ua/articles/ukraine-newspaper/_v-anomalnyh-mestah-obostryayutsya-bolezni/307122"],
+       2, 1500, observed_at="2007", tags=["слід", "геопатогенна зона"], region="м. Київ"),
+    pt("ua-kyc-0004", 30.5545, 50.3565, "Китаївська пустинь", "Kytaiv Hermitage",
+       "Монастир у Голосіївському районі, який київські езотерики відносять до аномальних і «сильних» місць міста.",
+       "Monastery in Holosiiv district that Kyiv esoterics list among the city's anomalous 'power' places.",
+       "place_of_power", "esoteric",
+       ["https://gazeta.ua/articles/ukraine-newspaper/_v-anomalnyh-mestah-obostryayutsya-bolezni/307122"],
+       1, 800, tags=["монастир"], region="м. Київ"),
+    pt("ua-kyc-0005", 30.5262, 50.4565, "Володимирська гірка", "Volodymyrska Hill",
+       "Вважається місцем сили ще з дохристиянських часів.",
+       "Considered a place of power since pre-Christian times.",
+       "place_of_power", "esoteric", ["https://tsn.ua/lady/puteshestviya/ukraina/top-7-misc-sili-v-ukrayini-683940.html"],
+       1, 300, region="м. Київ"),
+    pt("ua-kyc-0006", 30.560, 50.4155, "Звіринецька гора", "Zvirynetska Hill",
+       "Нині ботанічний сад НАН; маги називають її «вогняним» місцем сили Києва.",
+       "Now the NAS botanical garden; described by occultists as Kyiv's 'fire' place of power.",
+       "place_of_power", "esoteric", ["https://news.obozrevatel.com/society/90835-mesta-silyi.htm"],
+       1, 800, region="м. Київ"),
+    pt("ua-kyo-0001", 30.794441, 49.366621, "Гора Тотоха", "Totokha Mountain",
+       "Біля Медвина. Вважається «енергетичним центром України»: сюди їдуть по зцілення; місцеві дослідники описують «трикутник», що знімає негатив.",
+       "Near Medvyn. Called Ukraine's 'energy centre'; pilgrims seek healing, local researchers describe a triangle that removes negative energy.",
+       "place_of_power", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, tags=["зцілення"], region="Київська обл."),
+    pt("ua-kyo-0002", 30.788, 50.118, "Дівич-гора (Трипілля)", "Divych Hora (Trypillia)",
+       "Гора над Дніпром, яку вважають одним із найсильніших місць «жіночої сили»; за повір'ям, омолоджує.",
+       "Hill above the Dnipro regarded as a strong place of 'female power', said to rejuvenate.",
+       "place_of_power", "esoteric", ["https://tsn.ua/lady/puteshestviya/ukraina/top-7-misc-sili-v-ukrayini-683940.html"],
+       1, 1500, region="Київська обл."),
+    pt("ua-kyo-0003", 31.06, 49.98, "Гора відьом біля Ржищева", "Witches' Hill near Rzhyshchiv",
+       "Лиса гора на піщаному острові посеред Дніпра. Езотерики стверджують, що вона на одному меридіані з пірамідами Гізи й «підсилює заряд» людини.",
+       "Bald hill on a sandy island in the Dnipro; esoterics claim it shares a meridian with Giza and amplifies a person's 'charge'.",
+       "place_of_power", "esoteric", ["https://tsn.ua/lady/puteshestviya/ukraina/top-7-misc-sili-v-ukrayini-683940.html"],
+       1, 3000, region="Київська обл."),
+    pt("ua-chk-0001", 31.32, 49.90, "Трахтемирівський півострів", "Trakhtemyriv Peninsula",
+       "«Сакральне серце України»: давні городища, козацька історія, закинуте село. Відоме як місце сили, куди водять провідники.",
+       "'Sacred heart of Ukraine': ancient hillforts, Cossack history, an abandoned village; known as a place of power.",
+       "place_of_power", "esoteric",
+       ["https://kurs.com.ua/novost/214154-ukrainskie-mesta-sili-gde-zarjaditsja-anergiei",
+        "https://life.pravda.com.ua/society/2016/10/07/218596/"],
+       1, 4000, region="Черкаська обл."),
+    pt("ua-chk-0002", 32.23861, 49.13417, "Холодний Яр", "Kholodnyi Yar",
+       "Реліктовий ліс зі 150+ пам'ятками. Вважається місцем сильної енергетики; за повір'ям, дуб Залізняка дає силу. Існує версія про давнє падіння метеорита.",
+       "Relict forest with 150+ heritage sites; believed to have strong energy (Zalizniak's oak). One theory links it to an ancient meteorite.",
+       "place_of_power", "esoteric",
+       ["https://en.wikipedia.org/wiki/Kholodny_Yar",
+        "https://news.telegraf.com.ua/ukr/obshhestvo/2025-08-28/5919136-z-pid-zemli-chutno-divni-golosi-i-stogoni-lyudey-na-cherkashchini-e-mistichne-mistse-yake-vabit-turistiv"],
+       1, 2000, region="Черкаська обл."),
+    pt("ua-vin-0001", 28.40, 48.33, "Буша", "Busha",
+       "Скельний храм із давніми зображеннями, відтворюване слов'янське святилище. Називають одним із найпотужніших місць сили України.",
+       "Rock temple with ancient carvings and a reconstructed Slavic sanctuary; called one of Ukraine's strongest power places.",
+       "place_of_power", "esoteric",
+       ["https://www.ukrinform.ua/rubric-culture/4126949-u-busi-na-vinniccini-rozpocali-vidtvorenna-davnoslovanskogo-svatilisa.html"],
+       1, 2000, tags=["святилище"], region="Вінницька обл."),
+    pt("ua-ter-0001", 26.15, 49.03, "Гора Богит", "Bohit Mountain",
+       "Вершина Медоборів, язичницька святиня, пов'язана зі знахідкою Збруцького ідола.",
+       "Medobory summit and pagan sanctuary linked to the Zbruch Idol find.",
+       "place_of_power", "esoteric",
+       ["https://www.ukrinform.ua/rubric-tourism/2584103-taemnici-zbruckogo-idola.html"],
+       1, 2000, tags=["святилище", "Збруцький ідол"], region="Тернопільська обл."),
+    pt("ua-ter-0002", 25.854530, 48.731378, "Скельний монастир (Монастирок)", "Monastyrok rock monastery",
+       "Віддалений скельний монастир; за повір'ям, допомагає знайти пару.",
+       "Remote rock monastery, believed to help visitors find a partner.",
+       "place_of_power", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, region="Тернопільська обл."),
+    pt("ua-khm-0001", 26.998534, 48.586406, "Бакотський скельний монастир", "Bakota rock monastery",
+       "Частково відновлений скельний монастир над Дністром, популярний у паломників як сильне місце сили.",
+       "Partly restored rock monastery above the Dniester, popular with pilgrims as a power place.",
+       "place_of_power", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, region="Хмельницька обл."),
+    pt("ua-ifr-0001", 24.987935, 48.178831, "Писаний Камінь", "Pysanyi Kamin",
+       "Скеля з дев'ятьма рукотворними чашами, знаками й малюнками. Відвідувачі кажуть, що «заряджаються» тут позитивом.",
+       "Rock summit with nine man-made bowls, signs and drawings; visitors claim to be 'charged' with positive energy.",
+       "place_of_power", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, tags=["петрогліфи"], region="Івано-Франківська обл."),
+    pt("ua-ifr-0002", 23.681656, 49.043502, "Скелі Довбуша (Бубнище)", "Dovbush Rocks (Bubnyshche)",
+       "Комплекс скель, куди їдуть по спокій, натхнення й «відповіді на важливі питання».",
+       "Rock complex visited for calm, inspiration and 'answers to important questions'.",
+       "place_of_power", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, region="Івано-Франківська обл."),
+    pt("ua-ifr-0003", 24.396, 48.656, "Манявський скит", "Maniava Skete",
+       "Монастир у горах, який включають до переліків місць сили України.",
+       "Mountain monastery included in lists of Ukraine's power places.",
+       "place_of_power", "esoteric",
+       ["https://newsukraine.rbc.ua/news/unreal-places-in-ukraine-that-give-off-serious-1749706834.html"],
+       1, 1500, region="Івано-Франківська обл."),
+    pt("ua-lvi-0001", 25.331219, 49.947010, "Чортів Камінь (Підкамінь)", "Devil's Stone (Pidkamin)",
+       "Велетенський кварцово-піщаниковий валун на вершині; вважається джерелом сильної енергії.",
+       "Huge quartz-sandstone boulder on a hilltop, believed to emit strong energy.",
+       "energy_anomaly", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, region="Львівська обл."),
+    pt("ua-lvi-0002", 23.405, 49.198, "Тустань (Урич)", "Tustan (Urych)",
+       "Скельна фортеця-заповідник, яку зараховують до місць сили України.",
+       "Rock fortress reserve listed among Ukraine's power places.",
+       "place_of_power", "esoteric",
+       ["https://newsukraine.rbc.ua/news/unreal-places-in-ukraine-that-give-off-serious-1749706834.html"],
+       1, 1500, region="Львівська обл."),
+    pt("ua-lvi-0003", 23.578, 49.013, "Мертве (Журавлине) озеро", "Dead (Zhuravlyne) Lake",
+       "Темне озеро в НПП «Сколівські Бескиди»: «без дна», острівець нібито рухається вночі. "
+       "Пояснення прозаїчні: сірководень (тому немає риби) і плавучий острів із коренів та моху.",
+       "Dark lake in Skole Beskydy: 'bottomless', with an island said to move at night. Explained by hydrogen sulfide and a floating mat of roots and moss.",
+       "paranormal", "media",
+       ["https://zaxid.net/mertve_ozero_n1374224", "https://karpaty.rocks/en/node/26801"],
+       1, 2000, status="debunked", region="Львівська обл."),
+    pt("ua-zak-0001", 23.683, 48.6175, "Озеро Синевир", "Lake Synevyr",
+       "Найбільше гірське озеро Карпат, яке включають до переліків місць сили.",
+       "Largest mountain lake of the Carpathians, listed among power places.",
+       "place_of_power", "esoteric",
+       ["https://newsukraine.rbc.ua/news/unreal-places-in-ukraine-that-give-off-serious-1749706834.html"],
+       1, 1000, region="Закарпатська обл."),
+    pt("ua-riv-0001", 26.36, 50.95, "Базальтові стовпи", "Basalt Columns",
+       "Багатогранні базальтові колони до 30 м — слід давнього вулкана. Каменю приписують цілющу силу.",
+       "Polygonal basalt columns up to 30 m from an ancient volcano; the stone is said to have healing powers.",
+       "energy_anomaly", "esoteric", ["https://discover.ua/en/locations/bazaltovye-stolby"],
+       1, 5000, region="Рівненська обл."),
+    pt("ua-zap-0001", 35.470171, 46.950457, "Кам'яна Могила", "Kamiana Mohyla",
+       "Пісковиковий пагорб із тисячами петрогліфів; вважається, що випромінює енергію, яка надихає.",
+       "Sandstone hill with thousands of petroglyphs, believed to radiate inspiring energy.",
+       "place_of_power", "esoteric",
+       ["https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"],
+       1, 300, tags=["петрогліфи"], safety_note=OCCUPIED, region="Запорізька обл."),
+    pt("ua-crm-0001", 34.417783, 44.677605, "Долина привидів (Демерджі)", "Valley of Ghosts (Demerdzhi)",
+       "Сотні скель-останців, схожих на постаті. Єдине місце в Криму, де спостерігають «брокенський привид» — тінь на тумані з райдужним ореолом.",
+       "Hundreds of figure-like rock pillars; the only place in Crimea where the Brocken spectre is observed.",
+       "paranormal", "media", ["https://en.wikipedia.org/wiki/Valley_of_Ghosts_(Crimea)"],
+       3, 500, safety_note=OCCUPIED, region="АР Крим"),
+    pt("ua-crm-0002", 35.079378, 44.801738, "Мис Меганом", "Cape Meganom",
+       "Одне з найпопулярніших у Криму місць серед шукачів НЛО та «привидів».",
+       "One of Crimea's most popular spots among UFO and ghost hunters.",
+       "ufo_sighting", "media", ["https://www.vesti.ru/article/3218339"],
+       1, 1000, safety_note=OCCUPIED, region="АР Крим"),
+    pt("ua-crm-0003", 33.807, 44.592, "Мангуп-Кале", "Mangup-Kale",
+       "Середньовічне печерне місто на плато, яке езотерики вважають місцем сили.",
+       "Medieval cave city on a plateau regarded by esoterics as a power place.",
+       "place_of_power", "esoteric", ["https://www.vesti.ru/article/3218339"],
+       1, 1500, safety_note=OCCUPIED, region="АР Крим"),
+]
+
+NL = [
+    pt("nl-nb-0001", 4.580, 51.578, "Кругові знаки в Хувені", "Hoeven crop circles",
+       "З 1996 року біля Хувена майже щороку «знаходить» кола медіум Роббе ван ден Брук (напр., велика формація на Palingstraat, червень 2018). "
+       "Скептики вказують на його доведені фальсифікації; авторство невідоме.",
+       "Since 1996 medium Robbert van den Broeke has 'found' formations near Hoeven almost yearly (e.g. a large one on Palingstraat, June 2018). "
+       "Skeptics cite his exposed fakes; makers unknown.",
+       "crop_circle", "eyewitness",
+       ["https://www.omroepbrabant.nl/nieuws/2768527/enorme-graancirkels-gevonden-in-hoeven-maar-wie-heeft-ze-gemaakt-video",
+        "https://kloptdatwel.nl/?p=19944",
+        "https://ufology.patrickgross.org/htm/crophoeven.htm"],
+       1, 2000, observed_at="2018-06-10", tags=["Робберт ван ден Брук"], status="disputed", region="Noord-Brabant"),
+    pt("nl-nb-0002", 4.552, 51.585, "Спіраль між Оуденбосом і Хувеном", "Oudenbosch–Hoeven spiral",
+       "Формація в траві, 28 квітня 2015; 7 травня на тому ж полі з'явилася ще одна. Знайшов той самий медіум.",
+       "Grass formation, 28 Apr 2015, with another in the same field on 7 May; found by the same medium.",
+       "crop_circle", "eyewitness",
+       ["https://cropcircleconnector.com/2015/Oudenbosch/Oudenbosch2015a.html",
+        "https://cropcircleconnector.com/2015/Hoeven/Hoeven2015a.html"],
+       1, 2000, observed_at="2015-04-28", status="disputed", region="Noord-Brabant"),
+    pt("nl-nb-0003", 4.515, 51.615, "Коло в Стандарбейтені", "Standdaarbuiten crop circle",
+       "Формація в молодій пшениці близько опівночі 3–4 червня 2014; за звітом BLT, були два свідки.",
+       "Formation in young wheat around midnight 3–4 June 2014; BLT report claims two witnesses.",
+       "crop_circle", "eyewitness",
+       ["https://cropcircleconnector.com/2014/Standdaarbuiten/Standdaarbuiten2014a.html"],
+       2, 2000, observed_at="2014-06-04", status="disputed", region="Noord-Brabant"),
+    pt("nl-nb-0004", 4.540, 51.562, "Коло в Босхенгофді", "Bosschenhoofd crop circle",
+       "Формація, про яку повідомили 5 квітня 2014.",
+       "Formation reported on 5 April 2014.",
+       "crop_circle", "eyewitness",
+       ["https://cropcircleconnector.com/2014/Bosschenhoofd/Bosschenhoofd2014a.html"],
+       1, 2000, observed_at="2014-04-04", status="disputed", region="Noord-Brabant"),
+    pt("nl-nh-0001", 5.0697, 52.3343, "НЛО над замком Мейдерслот", "UFO over Muiderslot Castle",
+       "25 травня 2013 фотографиня випадково зняла в HDR трубчастий об'єкт з S-подібним «плавником». "
+       "Аналітик не знайшов ознак монтажу; скептики вважають, що це комаха біля об'єктива.",
+       "On 25 May 2013 a photographer accidentally captured a tubular object with an S-shaped fin in HDR. No signs of editing found; skeptics say it was an insect near the lens.",
+       "ufo_sighting", "eyewitness",
+       ["https://www.livescience.com/37349-ufo-netherlands-hdr-photo-ben-hansen.html",
+        "https://nltimes.nl/node/14046"],
+       4, 300, observed_at="2013-05-25", tags=["фото"], status="disputed", region="Noord-Holland"),
+    pt("nl-ut-0001", 5.276, 52.127, "Трикутник над авіабазою Сустерберг", "Soesterberg air base triangle",
+       "Рано-вранці 3 лютого 1979 року над авіабазою пролетів величезний чорний трикутний об'єкт; його бачили 12 військових. "
+       "Вважається найважливішим НЛО-інцидентом Нідерландів; пояснення немає.",
+       "Early on 3 Feb 1979 a huge black triangular object flew over the air base, seen by 12 servicemen. Considered the Netherlands' key UFO case; unexplained.",
+       "ufo_sighting", "eyewitness",
+       ["https://www.vera-groningen.nl/events/the-ufos-of-soesterberg/?lang=en",
+        "https://www.imdb.com/title/tt27205596"],
+       3, 2000, observed_at="1979-02-03", tags=["військові", "чорний трикутник"], region="Utrecht"),
+    pt("nl-fr-0001", 6.066, 53.006, "Хвиля спостережень у Горредейку", "Gorredijk UFO wave",
+       "З 11 січня 1974 року мешканці фризького села місяцями повідомляли про дивні світла в небі; про хвилю писали газети. "
+       "Історію реконструював дослідник Таде Смедес.",
+       "From 11 Jan 1974 villagers reported strange lights for months; covered widely by newspapers and reconstructed by researcher Taede Smedes.",
+       "ufo_sighting", "eyewitness",
+       ["https://www.voxweb.nl/en/how-a-frisian-village-became-obsessed-with-ufos"],
+       3, 3000, observed_at="1974-01-11", tags=["хвиля"], region="Friesland"),
+    pt("nl-zh-0001", 3.98, 51.84, "Невідомий «реактивний літак» біля Харінгвліта", "Haringvliet unknown jet",
+       "У розсекречених у 2026 році файлах Пентагону: троє американських членів екіпажу бачили над узбережжям біля гирла Харінгвліта невідомий об'єкт "
+       "з надзвичайною швидкістю й маневреністю. Рік у джерелах різниться (1947 або 1948).",
+       "Pentagon files released in 2026: three US crew saw an unknown jet-like object with extraordinary speed off the Haringvliet mouth. Sources give 1947 or 1948.",
+       "ufo_sighting", "media",
+       ["https://informedclearly.com/en/space/51116/pentagon-ufo-files-declassified-2025",
+        "https://www.bright.nl/nieuws/2087266/dit-wordt-over-nederland-gezegd-in-ufo-documenten-van-amerika.html"],
+       3, 10000, observed_at="1948", tags=["Пентагон", "архів"], region="Zuid-Holland"),
+    pt("nl-dr-0001", 6.797742, 52.930231, "Гунебед D27 (Боргер)", "Hunebed D27 (Borger)",
+       "Найбільший мегалітичний дольмен Нідерландів (22,6 м, ~3000 р. до н.е.). За фольклором Дренте, у гунебедах жили «білі жінки» (witte wieven).",
+       "Largest megalithic dolmen in the Netherlands (22.6 m, c. 3000 BC). Drenthe folklore says Witte Wieven lived in the dolmens.",
+       "place_of_power", "esoteric",
+       ["https://www.dehondsrug.nl/hotspots/the-largest-hunebed/?lang=en",
+        "https://studenttheses.universiteitleiden.nl/access/item%3A3800061/view"],
+       1, 50, tags=["мегаліт", "witte wieven"], region="Drenthe"),
+    pt("nl-gd-0001", 6.225, 52.165, "Віттевівенбулт (Ефде)", "Wittewievenbult (Eefde)",
+       "«Пагорб білих жінок»: за місцевою легендою, щороку на Святвечір тут танцюють witte wieven.",
+       "'White Women Hill': local legend says the Witte Wieven dance here every Christmas Eve.",
+       "paranormal", "esoteric", ["https://en.wikipedia.org/wiki/Witte_Wieven"],
+       1, 2000, tags=["witte wieven"], region="Gelderland"),
+    pt("nl-gd-0002", 6.465, 52.122, "Віттевейвенкейл (Бархем)", "Wittewijvenkuil (Barchem)",
+       "Яма, де, за переказом, досі живуть три witte wieven.",
+       "Pit where, according to legend, three Witte Wieven still live.",
+       "paranormal", "esoteric", ["https://www.iamexpat.nl/lifestyle/lifestyle-news/dutch-folklore-witte-wieven"],
+       1, 2000, tags=["witte wieven"], region="Gelderland"),
+    pt("nl-gd-0003", 5.792, 51.757, "Дерево від лихоманки (Оверасселт)", "Fever Tree (Overasselt)",
+       "Одне з «тонких місць» Гелдерланду, де, за віруваннями, межа між світами тонша; до дерева приходили лікуватися від лихоманки.",
+       "One of Gelderland's 'thin places', where the line between worlds is believed thin; people came to cure fever.",
+       "place_of_power", "esoteric", ["https://bergendal.wereldmuseum.nl/en/node/3385"],
+       1, 1500, tags=["thin place"], region="Gelderland"),
+    pt("nl-gd-0004", 5.937, 51.817, "Дейвелсберг (Берг-ен-Дал)", "Duivelsberg (Berg en Dal)",
+       "«Чортова гора» — ще одне «тонке місце» Гелдерланду за версією Wereldmuseum.",
+       "'Devil's Mountain', another Gelderland thin place featured by the Wereldmuseum.",
+       "place_of_power", "esoteric", ["https://bergendal.wereldmuseum.nl/en/node/3385"],
+       1, 800, tags=["thin place"], region="Gelderland"),
+    pt("nl-gd-0005", 5.665, 52.040, "Кривавий камінь (Еде)", "Bloedsteen (Ede)",
+       "«Тонке місце» в Еде за версією Wereldmuseum. Точне розташування каменя треба уточнити.",
+       "Thin place in Ede featured by the Wereldmuseum; exact stone location to be confirmed.",
+       "place_of_power", "esoteric", ["https://bergendal.wereldmuseum.nl/en/node/3385"],
+       1, 3000, tags=["thin place"], region="Gelderland"),
+    pt("nl-ut-0002", 4.993, 52.1215, "Замок Де Гаар", "Kasteel de Haar",
+       "Найбільший замок Нідерландів. За легендою, у каплиці й коридорах з'являється «Біла пані».",
+       "Largest castle in the Netherlands; legend of a White Lady in the chapel and halls.",
+       "paranormal", "esoteric", ["https://occult-world.com/?p=176766"],
+       1, 200, tags=["привид"], region="Utrecht"),
+]
+
+
+def write(name, feats):
+    out = ROOT / "data" / "points" / name
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False, indent=2) + "\n")
+    return out
+
+
+if __name__ == "__main__":
+    ids = [f["properties"]["id"] for f in UA + NL]
+    assert len(ids) == len(set(ids)), "duplicate ids"
+    for f in UA:
+        lng, lat = f["geometry"]["coordinates"]
+        assert 22 < lng < 41 and 44 < lat < 53, f["properties"]["id"]
+    for f in NL:
+        lng, lat = f["geometry"]["coordinates"]
+        assert 3 < lng < 7.3 and 50.7 < lat < 53.6, f["properties"]["id"]
+    print(write("ua.geojson", UA), len(UA))
+    print(write("nl.geojson", NL), len(NL))
+    feats = UA + NL
+    (ROOT / "public" / "data").mkdir(parents=True, exist_ok=True)
+    (ROOT / "public" / "data" / "all.geojson").write_text(
+        json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
+    tpl = (Path(__file__).parent / "preview_template.html").read_text()
+    data = json.dumps(feats, ensure_ascii=False).replace("</", "<\\/")
+    (ROOT / "preview.html").write_text(tpl.replace("__DATA__", data))
+    print("all.geojson + preview.html:", len(feats))

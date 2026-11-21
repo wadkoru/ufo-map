@@ -1,0 +1,1098 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.978,
+          51.302
+        ]
+      },
+      "properties": {
+        "id": "ua-zht-0001",
+        "title": {
+          "uk": "Кам'яне Село",
+          "en": "Stone Village (Kamiane Selo)"
+        },
+        "description": {
+          "uk": "Близько 15 га величезних гранітних валунів у лісі біля Рудні-Замисловицької (колишній Олевський р-н). За легендою — скам'яніле за жадібність село; на одному з каменів «Божий слід». Геологи пов'язують скелі з розломами Українського щита.",
+          "en": "About 15 ha of huge granite boulders in a forest near Rudnia-Zamyslovytska. Legend says it is a village turned to stone for greed; one boulder bears the 'Footprint of God'. Geologists link the rocks to faults of the Ukrainian Shield."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://www.turpravda.org/places/ua/korosten/Urochishche_Kamennoe_Selo-s2714",
+          "https://travelsinua-prod.azurewebsites.net/en-US/object/130/stone-village",
+          "https://ekmair.ukma.edu.ua/handle/123456789/11353"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Житомирська обл.",
+        "tags": [
+          "валуни",
+          "легенди",
+          "Полісся"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.06,
+          51.08
+        ]
+      },
+      "properties": {
+        "id": "ua-zht-0002",
+        "title": {
+          "uk": "Інцидент над ракетною базою (Усове/Білокоровичі)",
+          "en": "Missile base incident (Usove)"
+        },
+        "description": {
+          "uk": "4 жовтня 1982 року над радянською ракетною базою, за розповідями, зависав НЛО, і ракети нібито самі перейшли в бойову готовність. Відомий кейс світової уфології; офіційного підтвердження немає. База давно ліквідована, координати узагальнені до 5 км.",
+          "en": "On 4 Oct 1982 a UFO reportedly hovered over a Soviet missile base and missiles allegedly activated. A well-known ufology case with no official confirmation. The base is long gone; location generalised to 5 km."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "1982-10-04",
+        "added_at": "2026-11-21",
+        "source_type": "ufologist",
+        "sources": [
+          "https://en.wikipedia.org/wiki/UFO_sightings_in_Russia"
+        ],
+        "credibility": 2,
+        "precision_m": 5000,
+        "reporter": "seed",
+        "region": "Житомирська обл.",
+        "tags": [
+          "військові",
+          "СРСР"
+        ],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4967,
+          50.3636
+        ]
+      },
+      "properties": {
+        "id": "ua-kyc-0001",
+        "title": {
+          "uk": "Головна астрономічна обсерваторія НАН",
+          "en": "Main Astronomical Observatory, Kyiv"
+        },
+        "description": {
+          "uk": "Звідси метеорна станція ГАО у 2022 році знімала денне небо й зафіксувала швидкі об'єкти («космікс» і «фантоми»), яких автори не змогли ідентифікувати. Препринт не рецензувався; критики вважають, що частина об'єктів — військова техніка.",
+          "en": "In 2022 the MAO meteor station filmed the daytime sky and recorded fast objects ('cosmics' and 'phantoms') the authors could not identify. Preprint not peer-reviewed; critics suggest some were military hardware."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "2022-08-23",
+        "added_at": "2026-11-21",
+        "source_type": "measurement",
+        "sources": [
+          "https://arxiv.org/abs/2208.11215v2",
+          "https://www.livescience.com/ukraine-ufo-uap-report"
+        ],
+        "credibility": 5,
+        "precision_m": 500,
+        "reporter": "seed",
+        "region": "м. Київ",
+        "tags": [
+          "UAP",
+          "наука"
+        ],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1,
+          49.4
+        ]
+      },
+      "properties": {
+        "id": "ua-kyo-0004",
+        "title": {
+          "uk": "Метеорна станція Винарівка",
+          "en": "Vynarivka meteor station"
+        },
+        "description": {
+          "uk": "Друга станція двопунктових спостережень ГАО (база ~120 км від Києва). Синхронні камери використовували для оцінки висоти й швидкості UAP.",
+          "en": "Second station of the MAO two-site setup (~120 km baseline from Kyiv); synchronised cameras estimated UAP altitude and speed."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "2022-11-13",
+        "added_at": "2026-11-21",
+        "source_type": "measurement",
+        "sources": [
+          "https://arxiv.org/pdf/2211.17085"
+        ],
+        "credibility": 5,
+        "precision_m": 5000,
+        "reporter": "seed",
+        "region": "Київська обл.",
+        "tags": [
+          "UAP",
+          "наука"
+        ],
+        "media": [],
+        "status": "disputed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.544856,
+          50.394453
+        ]
+      },
+      "properties": {
+        "id": "ua-kyc-0002",
+        "title": {
+          "uk": "Лиса гора (Київ)",
+          "en": "Lysa Hora (Kyiv)"
+        },
+        "description": {
+          "uk": "Найвідоміша «відьомська» гора: за переказами — місце шабашів і давнього капища; частини: Відьмин яр, Русалчине озеро, Мертвецький гай. Нині ландшафтний парк, найменш відвідуваний у столиці.",
+          "en": "Kyiv's legendary 'witch mountain': folklore of sabbaths and a pagan sanctuary (Witch Ravine, Mermaid Lake, Dead Man's Grove). Now a landscape park."
+        },
+        "category": "paranormal",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lysa_Hora_(Kiev)",
+          "https://news.telegraf.com.ua/ukr/ukraina/2025-03-28/5903564-tse-mistse-prikhovue-bezlich-legend-shcho-mozhna-pobachiti-na-lisiy-gori-v-kievi-foto"
+        ],
+        "credibility": 1,
+        "precision_m": 500,
+        "reporter": "seed",
+        "region": "м. Київ",
+        "tags": [
+          "відьми",
+          "капище"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.508,
+          50.372
+        ]
+      },
+      "properties": {
+        "id": "ua-kyc-0003",
+        "title": {
+          "uk": "Слід НЛО в Голосіївському лісі",
+          "en": "UFO trace in Holosiivskyi forest"
+        },
+        "description": {
+          "uk": "Близько 2007 року езотерик сфотографував у лісі ділянку з поваленими деревами й «припеченими» рослинами та назвав її слідом НЛО. Ліс він вважає геопатогенною зоною. Одне джерело, без перевірки.",
+          "en": "Around 2007 an esoteric practitioner photographed fallen trees and 'scorched' plants here, calling it a UFO trace. Single unverified source."
+        },
+        "category": "ufo_sighting",
+        "observed_at": "2007",
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://gazeta.ua/articles/ukraine-newspaper/_v-anomalnyh-mestah-obostryayutsya-bolezni/307122"
+        ],
+        "credibility": 2,
+        "precision_m": 1500,
+        "reporter": "seed",
+        "region": "м. Київ",
+        "tags": [
+          "слід",
+          "геопатогенна зона"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5545,
+          50.3565
+        ]
+      },
+      "properties": {
+        "id": "ua-kyc-0004",
+        "title": {
+          "uk": "Китаївська пустинь",
+          "en": "Kytaiv Hermitage"
+        },
+        "description": {
+          "uk": "Монастир у Голосіївському районі, який київські езотерики відносять до аномальних і «сильних» місць міста.",
+          "en": "Monastery in Holosiiv district that Kyiv esoterics list among the city's anomalous 'power' places."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://gazeta.ua/articles/ukraine-newspaper/_v-anomalnyh-mestah-obostryayutsya-bolezni/307122"
+        ],
+        "credibility": 1,
+        "precision_m": 800,
+        "reporter": "seed",
+        "region": "м. Київ",
+        "tags": [
+          "монастир"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5262,
+          50.4565
+        ]
+      },
+      "properties": {
+        "id": "ua-kyc-0005",
+        "title": {
+          "uk": "Володимирська гірка",
+          "en": "Volodymyrska Hill"
+        },
+        "description": {
+          "uk": "Вважається місцем сили ще з дохристиянських часів.",
+          "en": "Considered a place of power since pre-Christian times."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://tsn.ua/lady/puteshestviya/ukraina/top-7-misc-sili-v-ukrayini-683940.html"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "м. Київ",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.56,
+          50.4155
+        ]
+      },
+      "properties": {
+        "id": "ua-kyc-0006",
+        "title": {
+          "uk": "Звіринецька гора",
+          "en": "Zvirynetska Hill"
+        },
+        "description": {
+          "uk": "Нині ботанічний сад НАН; маги називають її «вогняним» місцем сили Києва.",
+          "en": "Now the NAS botanical garden; described by occultists as Kyiv's 'fire' place of power."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/society/90835-mesta-silyi.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 800,
+        "reporter": "seed",
+        "region": "м. Київ",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.794441,
+          49.366621
+        ]
+      },
+      "properties": {
+        "id": "ua-kyo-0001",
+        "title": {
+          "uk": "Гора Тотоха",
+          "en": "Totokha Mountain"
+        },
+        "description": {
+          "uk": "Біля Медвина. Вважається «енергетичним центром України»: сюди їдуть по зцілення; місцеві дослідники описують «трикутник», що знімає негатив.",
+          "en": "Near Medvyn. Called Ukraine's 'energy centre'; pilgrims seek healing, local researchers describe a triangle that removes negative energy."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Київська обл.",
+        "tags": [
+          "зцілення"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.788,
+          50.118
+        ]
+      },
+      "properties": {
+        "id": "ua-kyo-0002",
+        "title": {
+          "uk": "Дівич-гора (Трипілля)",
+          "en": "Divych Hora (Trypillia)"
+        },
+        "description": {
+          "uk": "Гора над Дніпром, яку вважають одним із найсильніших місць «жіночої сили»; за повір'ям, омолоджує.",
+          "en": "Hill above the Dnipro regarded as a strong place of 'female power', said to rejuvenate."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://tsn.ua/lady/puteshestviya/ukraina/top-7-misc-sili-v-ukrayini-683940.html"
+        ],
+        "credibility": 1,
+        "precision_m": 1500,
+        "reporter": "seed",
+        "region": "Київська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.06,
+          49.98
+        ]
+      },
+      "properties": {
+        "id": "ua-kyo-0003",
+        "title": {
+          "uk": "Гора відьом біля Ржищева",
+          "en": "Witches' Hill near Rzhyshchiv"
+        },
+        "description": {
+          "uk": "Лиса гора на піщаному острові посеред Дніпра. Езотерики стверджують, що вона на одному меридіані з пірамідами Гізи й «підсилює заряд» людини.",
+          "en": "Bald hill on a sandy island in the Dnipro; esoterics claim it shares a meridian with Giza and amplifies a person's 'charge'."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://tsn.ua/lady/puteshestviya/ukraina/top-7-misc-sili-v-ukrayini-683940.html"
+        ],
+        "credibility": 1,
+        "precision_m": 3000,
+        "reporter": "seed",
+        "region": "Київська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.32,
+          49.9
+        ]
+      },
+      "properties": {
+        "id": "ua-chk-0001",
+        "title": {
+          "uk": "Трахтемирівський півострів",
+          "en": "Trakhtemyriv Peninsula"
+        },
+        "description": {
+          "uk": "«Сакральне серце України»: давні городища, козацька історія, закинуте село. Відоме як місце сили, куди водять провідники.",
+          "en": "'Sacred heart of Ukraine': ancient hillforts, Cossack history, an abandoned village; known as a place of power."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://kurs.com.ua/novost/214154-ukrainskie-mesta-sili-gde-zarjaditsja-anergiei",
+          "https://life.pravda.com.ua/society/2016/10/07/218596/"
+        ],
+        "credibility": 1,
+        "precision_m": 4000,
+        "reporter": "seed",
+        "region": "Черкаська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.23861,
+          49.13417
+        ]
+      },
+      "properties": {
+        "id": "ua-chk-0002",
+        "title": {
+          "uk": "Холодний Яр",
+          "en": "Kholodnyi Yar"
+        },
+        "description": {
+          "uk": "Реліктовий ліс зі 150+ пам'ятками. Вважається місцем сильної енергетики; за повір'ям, дуб Залізняка дає силу. Існує версія про давнє падіння метеорита.",
+          "en": "Relict forest with 150+ heritage sites; believed to have strong energy (Zalizniak's oak). One theory links it to an ancient meteorite."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Kholodny_Yar",
+          "https://news.telegraf.com.ua/ukr/obshhestvo/2025-08-28/5919136-z-pid-zemli-chutno-divni-golosi-i-stogoni-lyudey-na-cherkashchini-e-mistichne-mistse-yake-vabit-turistiv"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Черкаська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4,
+          48.33
+        ]
+      },
+      "properties": {
+        "id": "ua-vin-0001",
+        "title": {
+          "uk": "Буша",
+          "en": "Busha"
+        },
+        "description": {
+          "uk": "Скельний храм із давніми зображеннями, відтворюване слов'янське святилище. Називають одним із найпотужніших місць сили України.",
+          "en": "Rock temple with ancient carvings and a reconstructed Slavic sanctuary; called one of Ukraine's strongest power places."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://www.ukrinform.ua/rubric-culture/4126949-u-busi-na-vinniccini-rozpocali-vidtvorenna-davnoslovanskogo-svatilisa.html"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Вінницька обл.",
+        "tags": [
+          "святилище"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.15,
+          49.03
+        ]
+      },
+      "properties": {
+        "id": "ua-ter-0001",
+        "title": {
+          "uk": "Гора Богит",
+          "en": "Bohit Mountain"
+        },
+        "description": {
+          "uk": "Вершина Медоборів, язичницька святиня, пов'язана зі знахідкою Збруцького ідола.",
+          "en": "Medobory summit and pagan sanctuary linked to the Zbruch Idol find."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://www.ukrinform.ua/rubric-tourism/2584103-taemnici-zbruckogo-idola.html"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Тернопільська обл.",
+        "tags": [
+          "святилище",
+          "Збруцький ідол"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.85453,
+          48.731378
+        ]
+      },
+      "properties": {
+        "id": "ua-ter-0002",
+        "title": {
+          "uk": "Скельний монастир (Монастирок)",
+          "en": "Monastyrok rock monastery"
+        },
+        "description": {
+          "uk": "Віддалений скельний монастир; за повір'ям, допомагає знайти пару.",
+          "en": "Remote rock monastery, believed to help visitors find a partner."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Тернопільська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.998534,
+          48.586406
+        ]
+      },
+      "properties": {
+        "id": "ua-khm-0001",
+        "title": {
+          "uk": "Бакотський скельний монастир",
+          "en": "Bakota rock monastery"
+        },
+        "description": {
+          "uk": "Частково відновлений скельний монастир над Дністром, популярний у паломників як сильне місце сили.",
+          "en": "Partly restored rock monastery above the Dniester, popular with pilgrims as a power place."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Хмельницька обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.987935,
+          48.178831
+        ]
+      },
+      "properties": {
+        "id": "ua-ifr-0001",
+        "title": {
+          "uk": "Писаний Камінь",
+          "en": "Pysanyi Kamin"
+        },
+        "description": {
+          "uk": "Скеля з дев'ятьма рукотворними чашами, знаками й малюнками. Відвідувачі кажуть, що «заряджаються» тут позитивом.",
+          "en": "Rock summit with nine man-made bowls, signs and drawings; visitors claim to be 'charged' with positive energy."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Івано-Франківська обл.",
+        "tags": [
+          "петрогліфи"
+        ],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.681656,
+          49.043502
+        ]
+      },
+      "properties": {
+        "id": "ua-ifr-0002",
+        "title": {
+          "uk": "Скелі Довбуша (Бубнище)",
+          "en": "Dovbush Rocks (Bubnyshche)"
+        },
+        "description": {
+          "uk": "Комплекс скель, куди їдуть по спокій, натхнення й «відповіді на важливі питання».",
+          "en": "Rock complex visited for calm, inspiration and 'answers to important questions'."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Івано-Франківська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.396,
+          48.656
+        ]
+      },
+      "properties": {
+        "id": "ua-ifr-0003",
+        "title": {
+          "uk": "Манявський скит",
+          "en": "Maniava Skete"
+        },
+        "description": {
+          "uk": "Монастир у горах, який включають до переліків місць сили України.",
+          "en": "Mountain monastery included in lists of Ukraine's power places."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://newsukraine.rbc.ua/news/unreal-places-in-ukraine-that-give-off-serious-1749706834.html"
+        ],
+        "credibility": 1,
+        "precision_m": 1500,
+        "reporter": "seed",
+        "region": "Івано-Франківська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.331219,
+          49.94701
+        ]
+      },
+      "properties": {
+        "id": "ua-lvi-0001",
+        "title": {
+          "uk": "Чортів Камінь (Підкамінь)",
+          "en": "Devil's Stone (Pidkamin)"
+        },
+        "description": {
+          "uk": "Велетенський кварцово-піщаниковий валун на вершині; вважається джерелом сильної енергії.",
+          "en": "Huge quartz-sandstone boulder on a hilltop, believed to emit strong energy."
+        },
+        "category": "energy_anomaly",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Львівська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.405,
+          49.198
+        ]
+      },
+      "properties": {
+        "id": "ua-lvi-0002",
+        "title": {
+          "uk": "Тустань (Урич)",
+          "en": "Tustan (Urych)"
+        },
+        "description": {
+          "uk": "Скельна фортеця-заповідник, яку зараховують до місць сили України.",
+          "en": "Rock fortress reserve listed among Ukraine's power places."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://newsukraine.rbc.ua/news/unreal-places-in-ukraine-that-give-off-serious-1749706834.html"
+        ],
+        "credibility": 1,
+        "precision_m": 1500,
+        "reporter": "seed",
+        "region": "Львівська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.578,
+          49.013
+        ]
+      },
+      "properties": {
+        "id": "ua-lvi-0003",
+        "title": {
+          "uk": "Мертве (Журавлине) озеро",
+          "en": "Dead (Zhuravlyne) Lake"
+        },
+        "description": {
+          "uk": "Темне озеро в НПП «Сколівські Бескиди»: «без дна», острівець нібито рухається вночі. Пояснення прозаїчні: сірководень (тому немає риби) і плавучий острів із коренів та моху.",
+          "en": "Dark lake in Skole Beskydy: 'bottomless', with an island said to move at night. Explained by hydrogen sulfide and a floating mat of roots and moss."
+        },
+        "category": "paranormal",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "media",
+        "sources": [
+          "https://zaxid.net/mertve_ozero_n1374224",
+          "https://karpaty.rocks/en/node/26801"
+        ],
+        "credibility": 1,
+        "precision_m": 2000,
+        "reporter": "seed",
+        "region": "Львівська обл.",
+        "tags": [],
+        "media": [],
+        "status": "debunked"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.683,
+          48.6175
+        ]
+      },
+      "properties": {
+        "id": "ua-zak-0001",
+        "title": {
+          "uk": "Озеро Синевир",
+          "en": "Lake Synevyr"
+        },
+        "description": {
+          "uk": "Найбільше гірське озеро Карпат, яке включають до переліків місць сили.",
+          "en": "Largest mountain lake of the Carpathians, listed among power places."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://newsukraine.rbc.ua/news/unreal-places-in-ukraine-that-give-off-serious-1749706834.html"
+        ],
+        "credibility": 1,
+        "precision_m": 1000,
+        "reporter": "seed",
+        "region": "Закарпатська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.36,
+          50.95
+        ]
+      },
+      "properties": {
+        "id": "ua-riv-0001",
+        "title": {
+          "uk": "Базальтові стовпи",
+          "en": "Basalt Columns"
+        },
+        "description": {
+          "uk": "Багатогранні базальтові колони до 30 м — слід давнього вулкана. Каменю приписують цілющу силу.",
+          "en": "Polygonal basalt columns up to 30 m from an ancient volcano; the stone is said to have healing powers."
+        },
+        "category": "energy_anomaly",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://discover.ua/en/locations/bazaltovye-stolby"
+        ],
+        "credibility": 1,
+        "precision_m": 5000,
+        "reporter": "seed",
+        "region": "Рівненська обл.",
+        "tags": [],
+        "media": [],
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.470171,
+          46.950457
+        ]
+      },
+      "properties": {
+        "id": "ua-zap-0001",
+        "title": {
+          "uk": "Кам'яна Могила",
+          "en": "Kamiana Mohyla"
+        },
+        "description": {
+          "uk": "Пісковиковий пагорб із тисячами петрогліфів; вважається, що випромінює енергію, яка надихає.",
+          "en": "Sandstone hill with thousands of petroglyphs, believed to radiate inspiring energy."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://news.obozrevatel.com/ukr/travel/location/energiya-kamenyu-i-prirodi-top-7-mists-sili-ukraini/amp.htm"
+        ],
+        "credibility": 1,
+        "precision_m": 300,
+        "reporter": "seed",
+        "region": "Запорізька обл.",
+        "tags": [
+          "петрогліфи"
+        ],
+        "media": [],
+        "status": "published",
+        "safety_note": "Тимчасово окупована територія — відвідування неможливе й небезпечне."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.417783,
+          44.677605
+        ]
+      },
+      "properties": {
+        "id": "ua-crm-0001",
+        "title": {
+          "uk": "Долина привидів (Демерджі)",
+          "en": "Valley of Ghosts (Demerdzhi)"
+        },
+        "description": {
+          "uk": "Сотні скель-останців, схожих на постаті. Єдине місце в Криму, де спостерігають «брокенський привид» — тінь на тумані з райдужним ореолом.",
+          "en": "Hundreds of figure-like rock pillars; the only place in Crimea where the Brocken spectre is observed."
+        },
+        "category": "paranormal",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "media",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Valley_of_Ghosts_(Crimea)"
+        ],
+        "credibility": 3,
+        "precision_m": 500,
+        "reporter": "seed",
+        "region": "АР Крим",
+        "tags": [],
+        "media": [],
+        "status": "published",
+        "safety_note": "Тимчасово окупована територія — відвідування неможливе й небезпечне."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.079378,
+          44.801738
+        ]
+      },
+      "properties": {
+        "id": "ua-crm-0002",
+        "title": {
+          "uk": "Мис Меганом",
+          "en": "Cape Meganom"
+        },
+        "description": {
+          "uk": "Одне з найпопулярніших у Криму місць серед шукачів НЛО та «привидів».",
+          "en": "One of Crimea's most popular spots among UFO and ghost hunters."
+        },
+        "category": "ufo_sighting",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "media",
+        "sources": [
+          "https://www.vesti.ru/article/3218339"
+        ],
+        "credibility": 1,
+        "precision_m": 1000,
+        "reporter": "seed",
+        "region": "АР Крим",
+        "tags": [],
+        "media": [],
+        "status": "published",
+        "safety_note": "Тимчасово окупована територія — відвідування неможливе й небезпечне."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.807,
+          44.592
+        ]
+      },
+      "properties": {
+        "id": "ua-crm-0003",
+        "title": {
+          "uk": "Мангуп-Кале",
+          "en": "Mangup-Kale"
+        },
+        "description": {
+          "uk": "Середньовічне печерне місто на плато, яке езотерики вважають місцем сили.",
+          "en": "Medieval cave city on a plateau regarded by esoterics as a power place."
+        },
+        "category": "place_of_power",
+        "observed_at": null,
+        "added_at": "2026-11-21",
+        "source_type": "esoteric",
+        "sources": [
+          "https://www.vesti.ru/article/3218339"
+        ],
+        "credibility": 1,
+        "precision_m": 1500,
+        "reporter": "seed",
+        "region": "АР Крим",
+        "tags": [],
+        "media": [],
+        "status": "published",
+        "safety_note": "Тимчасово окупована територія — відвідування неможливе й небезпечне."
+      }
+    }
+  ]
+}

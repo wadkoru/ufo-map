@@ -1,4 +1,4 @@
-import { Map as MlMap, NavigationControl, AttributionControl } from 'maplibre-gl';
+import { setWorkerUrl, Map as MlMap, NavigationControl, AttributionControl } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 // Два провайдери: перемкнути можна одним рядком.
@@ -7,6 +7,9 @@ const STYLES = {
   openfreemap: 'https://tiles.openfreemap.org/styles/positron',
 };
 const STYLE = STYLES.carto;
+
+// maplibre-gl 6: воркер — окремий файл (копіюється в public/maplibre скриптом prepare:maplibre)
+setWorkerUrl(`${import.meta.env.BASE_URL}maplibre/maplibre-gl-worker.mjs`);
 
 export function createMap(container: string, center: [number, number] = [18, 49.5], zoom = 4.3): MlMap {
   const map = new MlMap({

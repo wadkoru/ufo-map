@@ -49,5 +49,12 @@
   "credibility.5": "є вимірювання",
   "status.published": "Опубліковано",
   "status.disputed": "Спірна",
-  "status.debunked": "Пояснена"
+  "status.debunked": "Пояснена",
+  "enrich.button": "Створити опис і фото",
+  "enrich.loading": "Шукаю опис і фото…",
+  "enrich.none": "Нічого не знайдено поруч із цією точкою.",
+  "enrich.error": "Не вдалося завантажити дані. Спробуйте пізніше.",
+  "enrich.about": "Довідка (Вікіпедія)",
+  "enrich.photos": "Фото з Wikimedia Commons",
+  "enrich.note": "Автоматично підібрано за координатами; може стосуватися сусідніх об'єктів."
 }

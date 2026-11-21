@@ -1,5 +1,6 @@
 import type { PointFeature } from '../types';
 import { getLang, t } from '../i18n';
+import { fetchEnrichment } from './enrich';
 import { CATEGORY_COLORS, DEBUNKED_COLOR } from '../map/categories';
 
 const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
@@ -26,9 +27,24 @@ export function renderPanel(el: HTMLElement, f: PointFeature, onClose: () => voi
     ${row('filters.source_type', esc(t('source_type.' + p.source_type)))}
     ${row('panel.status', esc(t('status.' + p.status)))}
     ${p.tags?.length ? `<div class="tags">${p.tags.map((x) => `<span>#${esc(x)}</span>`).join('')}</div>` : ''}
+    <button class="enrich">${esc(t('enrich.button'))}</button>
+    <div class="enriched" aria-live="polite"></div>
     <h3>${esc(t('panel.sources'))}</h3>
     <ul>${p.sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(new URL(u).hostname)}</a></li>`).join('')}</ul>`;
   el.querySelector('.close')!.addEventListener('click', onClose);
+  const btn = el.querySelector<HTMLButtonElement>('.enrich')!;
+  const box = el.querySelector<HTMLElement>('.enriched')!;
+  btn.addEventListener('click', async () => {
+    btn.disabled = true; box.textContent = t('enrich.loading');
+    try {
+      const e = await fetchEnrichment(f, lang);
+      if (!e.extract && !e.photos.length) { box.textContent = t('enrich.none'); btn.disabled = false; return; }
+      box.innerHTML = `${e.extract ? `<h3>${esc(t('enrich.about'))}</h3><p><b>${esc(e.title ?? '')}</b></p><p>${esc(e.extract)}</p>${e.pageUrl ? `<a href="${esc(e.pageUrl)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>` : ''}` : ''}
+        ${e.photos.length ? `<h3>${esc(t('enrich.photos'))}</h3><div class="photos">${e.photos.map((p) =>
+          `<figure><a href="${esc(p.page)}" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="${esc(p.thumb)}" alt="${esc(p.title)}"></a><figcaption>${esc(p.author)} ${esc(p.license)}</figcaption></figure>`).join('')}</div>` : ''}
+        <small>${esc(t('enrich.note'))}</small>`;
+    } catch { box.textContent = t('enrich.error'); btn.disabled = false; }
+  });
   el.hidden = false;
   el.scrollTop = 0;
 }

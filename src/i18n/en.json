@@ -49,5 +49,12 @@
   "credibility.5": "instrument data",
   "status.published": "Published",
   "status.disputed": "Disputed",
-  "status.debunked": "Debunked"
+  "status.debunked": "Debunked",
+  "enrich.button": "Generate description & photos",
+  "enrich.loading": "Looking up description and photos…",
+  "enrich.none": "Nothing found near this point.",
+  "enrich.error": "Could not load data. Try again later.",
+  "enrich.about": "Background (Wikipedia)",
+  "enrich.photos": "Photos from Wikimedia Commons",
+  "enrich.note": "Matched automatically by coordinates; may refer to nearby objects."
 }

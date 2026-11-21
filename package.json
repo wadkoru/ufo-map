@@ -16,6 +16,8 @@
     "maplibre-gl": "^6.19.0"
   },
   "devDependencies": {
+    "@emnapi/core": "^2.0.0-beta.2",
+    "@emnapi/runtime": "^2.0.0-beta.2",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^26.6.6",
     "ajv": "^8.20.0",

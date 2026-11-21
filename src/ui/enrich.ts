@@ -92,8 +92,12 @@ function wikiSources(f: PointFeature): { lang: string; title: string }[] {
 /** Каскад: (1) зображення статті-джерела → (2) Commons за координатами 1.5/10/50 км → (3) Commons за текстом назви. */
 export async function fetchPhotos(f: PointFeature, lang: Lang): Promise<Photo[]> {
   const found: Photo[] = [];
+  const key = (u: string) => {
+    const parts = decodeURIComponent(u).split('/');
+    return (u.includes('/thumb/') ? parts[parts.length - 2] : parts[parts.length - 1]).toLowerCase();
+  };
   const add = (ph: Photo[]) => {
-    for (const x of ph) if (found.length < wanted && !found.some((y) => y.thumb === x.thumb)) found.push(x);
+    for (const x of ph) if (found.length < wanted && !found.some((y) => key(y.thumb) === key(x.thumb))) found.push(x);
   };
   const safe = async (url: string) => { try { return await getJson(url); } catch { return null; } };
 

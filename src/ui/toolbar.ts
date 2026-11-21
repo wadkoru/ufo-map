@@ -4,6 +4,10 @@ import { CATEGORIES } from '../map/categories';
 import { countryOf, defaultFilters, type FilterState } from '../filters';
 import { createSearch } from './search';
 
+function countryName(cc: string): string {
+  try { return new Intl.DisplayNames([getLang()], { type: 'region' }).of(cc.toUpperCase()) ?? cc; } catch { return cc; }
+}
+
 const SOURCE_TYPES: SourceType[] = ['ufologist', 'esoteric', 'eyewitness', 'media', 'measurement'];
 
 interface Opts {
@@ -33,7 +37,7 @@ export function renderToolbar(o: Opts): { setCount(n: number): void } {
       <button id="about-btn" title="${t('about.button')}">?</button>
     </div>
     <div class="filters" id="filters">
-      ${sel('f-country', t('filters.country'), countries.map((c) => [c, t('country.' + c)]))}
+      ${sel('f-country', t('filters.country'), countries.map((c) => [c, countryName(c)] as [string, string]).sort((a, b) => a[1].localeCompare(b[1], getLang())))}
       ${sel('f-category', t('filters.category'), CATEGORIES.map((c) => [c, t('category.' + c)]))}
       ${sel('f-source', t('filters.source_type'), SOURCE_TYPES.map((s) => [s, t('source_type.' + s)]))}
       <label>${t('filters.credibility')}: <b id="cred-v">1</b>

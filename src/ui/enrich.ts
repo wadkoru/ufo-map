@@ -56,3 +56,22 @@ export async function fetchEnrichment(f: PointFeature, lang: Lang): Promise<Enri
   }
   return out;
 }
+
+const API_URL: string = import.meta.env.VITE_API_URL ?? '';
+export const hasBackend = (): boolean => API_URL !== '';
+
+/** Текст від Claude через бекенд (Cloudflare Worker). Кидає помилку, якщо бекенд недоступний. */
+export async function generateText(f: PointFeature, lang: Lang, extra?: string): Promise<string> {
+  const p = f.properties;
+  const r = await fetch(API_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      lang, title: p.title[lang], region: p.region, category: p.category, observed_at: p.observed_at,
+      description: p.description[lang], sources: p.sources, extra,
+    }),
+  });
+  if (r.status === 429) throw new Error('rate_limit');
+  if (!r.ok) throw new Error(String(r.status));
+  return ((await r.json()) as { text: string }).text;
+}

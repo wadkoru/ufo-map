@@ -6,6 +6,2424 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     6.726986,
+     53.011353
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0002",
+    "title": {
+     "uk": "Гунебед D13",
+     "en": "Hunebed D13"
+    },
+    "description": {
+     "uk": "Гунебед D13 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D13, een trapgraf, is een klein hunebed nabij het dorp Eext in de Nederlandse provincie Drenthe. Het hunebed ligt nog in de dekheuvel, iets wat uitzonderlijk is in Nederland, en in de nabijheid van een urnenveld uit de late bronstijd (ca. 1100-800 v.Chr.).»",
+     "en": "Hunebed D13 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D13, een trapgraf, is een klein hunebed nabij het dorp Eext in de Nederlandse provincie Drenthe. Het hunebed ligt nog in de dekheuvel, iets wat uitzonderlijk is in Nederland, en in de nabijheid van een urnenveld uit de late bronstijd (ca. 1100-800 v.Chr.).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D13_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.800111,
+     52.944128
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0003",
+    "title": {
+     "uk": "Гунебед D22",
+     "en": "Hunebed D22"
+    },
+    "description": {
+     "uk": "Гунебед D22 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D22 is het kleinste nog bestaande hunebed in Nederland. Dit hunebed ligt op een klein terreintje nabij het dorpje Bronneger (gemeente Borger-Odoorn) samen met het beter bewaarde hunebed D21. Deze twee hunebedden worden ook wel tweelingen genoemd.»",
+     "en": "Hunebed D22 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D22 is het kleinste nog bestaande hunebed in Nederland. Dit hunebed ligt op een klein terreintje nabij het dorpje Bronneger (gemeente Borger-Odoorn) samen met het beter bewaarde hunebed D21. Deze twee hunebedden worden ook wel tweelingen genoemd.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D22_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.707928,
+     53.0302
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0004",
+    "title": {
+     "uk": "Гунебед D11",
+     "en": "Hunebed D11"
+    },
+    "description": {
+     "uk": "Гунебед D11 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D11 ligt in de boswachterij Anloo tussen Anloo en Eext in de Nederlandse provincie Drenthe. Het hunebed ligt midden in de boswachterij Anloo, ooit aangeplant in de jaren twintig en dertig van de 20e eeuw als productiebos van het landgoed Terborgh. Inmiddels is het grootste gedeelte van het bos in bezit van Staatsbosbeheer.»",
+     "en": "Hunebed D11 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D11 ligt in de boswachterij Anloo tussen Anloo en Eext in de Nederlandse provincie Drenthe. Het hunebed ligt midden in de boswachterij Anloo, ooit aangeplant in de jaren twintig en dertig van de 20e eeuw als productiebos van het landgoed Terborgh. Inmiddels is het grootste gedeelte van het bos in bezit van Staatsbosbeheer.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D11_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.730272,
+     53.001639
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0005",
+    "title": {
+     "uk": "Гунебед D14",
+     "en": "Hunebed D14"
+    },
+    "description": {
+     "uk": "Гунебед D14 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D14 ligt ten zuiden van Eext schuin tegenover het voormalige station Station Eext in de Nederlandse provincie Drenthe. Deze plaats wordt ook wel aangeduid als Eexterhalte. Het hunebed ligt ten oosten van de Stationsstraat en is hiervandaan via een graspad te bereiken.»",
+     "en": "Hunebed D14 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D14 ligt ten zuiden van Eext schuin tegenover het voormalige station Station Eext in de Nederlandse provincie Drenthe. Deze plaats wordt ook wel aangeduid als Eexterhalte. Het hunebed ligt ten oosten van de Stationsstraat en is hiervandaan via een graspad te bereiken.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D14_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.44555,
+     53.055589
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0006",
+    "title": {
+     "uk": "Гунебед D2",
+     "en": "Hunebed D2"
+    },
+    "description": {
+     "uk": "Гунебед D2 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D2 is een portaalgraf. Het hunebed ligt aan de oostzijde van Westervelde, 2 kilometer ten zuiden van Norg, vlak bij het Norgerholt.»",
+     "en": "Hunebed D2 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D2 is een portaalgraf. Het hunebed ligt aan de oostzijde van Westervelde, 2 kilometer ten zuiden van Norg, vlak bij het Norgerholt.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D2_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.800111,
+     52.944128
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0007",
+    "title": {
+     "uk": "Гунебед D21",
+     "en": "Hunebed D21"
+    },
+    "description": {
+     "uk": "Гунебед D21 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D21 is een portaalgraf. Het is een van de vijf hunebedden gelegen bij de plaats Bronneger in de provincie Drenthe. Van de vijf hunebedden is D21 de belangrijkste gezien de archeologische vondsten.»",
+     "en": "Hunebed D21 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D21 is een portaalgraf. Het is een van de vijf hunebedden gelegen bij de plaats Bronneger in de provincie Drenthe. Van de vijf hunebedden is D21 de belangrijkste gezien de archeologische vondsten.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D21_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.410339,
+     53.104714
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0008",
+    "title": {
+     "uk": "Гунебед D1",
+     "en": "Hunebed D1"
+    },
+    "description": {
+     "uk": "Гунебед D1 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D1 is een portaalgraf. Het hunebed ligt bij de plaats Steenbergen in de provincie Drenthe. De plaats Steenbergen is ook vernoemd naar deze hunebedden.»",
+     "en": "Hunebed D1 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D1 is een portaalgraf. Het hunebed ligt bij de plaats Steenbergen in de provincie Drenthe. De plaats Steenbergen is ook vernoemd naar deze hunebedden.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D1_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.649175,
+     52.989608
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0009",
+    "title": {
+     "uk": "Гунебед D18",
+     "en": "Hunebed D18"
+    },
+    "description": {
+     "uk": "Гунебед D18 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D18 ligt in de nabijheid van Rolde in de Nederlandse provincie Drenthe. Het hunebed ligt ten noordoosten van Rolde in de omgeving van het kerkhof en de Sint-Jacobskerk op de es. In de onmiddellijke omgeving ligt nog een tweede hunebed D17.»",
+     "en": "Hunebed D18 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D18 ligt in de nabijheid van Rolde in de Nederlandse provincie Drenthe. Het hunebed ligt ten noordoosten van Rolde in de omgeving van het kerkhof en de Sint-Jacobskerk op de es. In de onmiddellijke omgeving ligt nog een tweede hunebed D17.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D18_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.649336,
+     52.990072
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0010",
+    "title": {
+     "uk": "Гунебед D17",
+     "en": "Hunebed D17"
+    },
+    "description": {
+     "uk": "Гунебед D17 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D17 ligt in de nabijheid van Rolde in de Nederlandse provincie Drenthe. Het hunebed ligt ten noordoosten van Rolde in de omgeving van het kerkhof en de Sint-Jacobskerk op de es. In de onmiddellijke omgeving ligt nog een tweede hunebed D18.»",
+     "en": "Hunebed D17 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D17 ligt in de nabijheid van Rolde in de Nederlandse provincie Drenthe. Het hunebed ligt ten noordoosten van Rolde in de omgeving van het kerkhof en de Sint-Jacobskerk op de es. In de onmiddellijke omgeving ligt nog een tweede hunebed D18.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D17_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.785197,
+     52.951969
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0011",
+    "title": {
+     "uk": "Гунебед D19",
+     "en": "Hunebed D19"
+    },
+    "description": {
+     "uk": "Гунебед D19 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «D19 is een hunebed toegeschreven aan de trechterbekercultuur dat samen met hunebed D20 ten westen van het dorp Drouwen aan de Steenhopenweg ligt. Het bevindt zich vlak voor het in 2006 aangelegde viaduct onder de N34 in de Nederlandse provincie Drenthe.»",
+     "en": "Hunebed D19 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “D19 is een hunebed toegeschreven aan de trechterbekercultuur dat samen met hunebed D20 ten westen van het dorp Drouwen aan de Steenhopenweg ligt. Het bevindt zich vlak voor het in 2006 aangelegde viaduct onder de N34 in de Nederlandse provincie Drenthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D19_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.785197,
+     52.951969
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0012",
+    "title": {
+     "uk": "Гунебед D20",
+     "en": "Hunebed D20"
+    },
+    "description": {
+     "uk": "Гунебед D20 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D20 ligt samen met hunebed D19 ten westen van het dorp Drouwen aan de Steenhopenweg vlak voor het in 2006 aangelegde viaduct onder de N34 in de Nederlandse provincie Drenthe. De hunebedden liggen circa 15,5 meter van elkaar verwijderd.»",
+     "en": "Hunebed D20 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D20 ligt samen met hunebed D19 ten westen van het dorp Drouwen aan de Steenhopenweg vlak voor het in 2006 aangelegde viaduct onder de N34 in de Nederlandse provincie Drenthe. De hunebedden liggen circa 15,5 meter van elkaar verwijderd.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D20_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.802294,
+     52.944561
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0013",
+    "title": {
+     "uk": "Гунебед D24",
+     "en": "Hunebed D24"
+    },
+    "description": {
+     "uk": "Гунебед D24 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D24 is een van de vijf hunebedden gelegen bij de plaats Bronneger in de Nederlandse provincie Drenthe. Het hunebed D24 vormt samen met het nog kleinere D23 en het wat grotere D25 een wat apart en meer in het bos gelegen groepje hunebedden aan de Steenakkersweg, een zandweg naar Bronneger. De hunebedden D22 en D21 liggen iets meer naar het westen aan de rand van een akker.»",
+     "en": "Hunebed D24 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D24 is een van de vijf hunebedden gelegen bij de plaats Bronneger in de Nederlandse provincie Drenthe. Het hunebed D24 vormt samen met het nog kleinere D23 en het wat grotere D25 een wat apart en meer in het bos gelegen groepje hunebedden aan de Steenakkersweg, een zandweg naar Bronneger. De hunebedden D22 en D21 liggen iets meer naar het westen aan de rand van een akker.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D24_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.802439,
+     52.944744
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0014",
+    "title": {
+     "uk": "Гунебед D23",
+     "en": "Hunebed D23"
+    },
+    "description": {
+     "uk": "Гунебед D23 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D23 is een van de vijf hunebedden gelegen bij de plaats Bronneger in de Nederlandse provincie Drenthe. Het zeer kleine hunebed D23 vormt samen met het iets grotere D24 en het beduidend grotere D25 een wat apart en meer in het bos gelegen groepje hunebedden aan de Steenakkersweg, een zandweg naar Bronneger. Van D23 en D24 zijn maar weinig stenen bewaard gebleven.»",
+     "en": "Hunebed D23 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D23 is een van de vijf hunebedden gelegen bij de plaats Bronneger in de Nederlandse provincie Drenthe. Het zeer kleine hunebed D23 vormt samen met het iets grotere D24 en het beduidend grotere D25 een wat apart en meer in het bos gelegen groepje hunebedden aan de Steenakkersweg, een zandweg naar Bronneger. Van D23 en D24 zijn maar weinig stenen bewaard gebleven.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D23_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.723553,
+     53.014833
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0015",
+    "title": {
+     "uk": "Гунебед D12",
+     "en": "Hunebed D12"
+    },
+    "description": {
+     "uk": "Гунебед D12 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D12 is een portaalgraf. Het ligt ten zuidwesten van Eext in de Nederlandse provincie Drenthe. Het hunebed is onderzocht en gerestaureerd in 1952.»",
+     "en": "Hunebed D12 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D12 is een portaalgraf. Het ligt ten zuidwesten van Eext in de Nederlandse provincie Drenthe. Het hunebed is onderzocht en gerestaureerd in 1952.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D12_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.6125,
+     53.0225
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0016",
+    "title": {
+     "uk": "Гунебед D15",
+     "en": "Hunebed D15"
+    },
+    "description": {
+     "uk": "Гунебед D15 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D15 ligt ten noorden van het dorpje Loon in de Nederlandse provincie Drenthe. Het middelgrote hunebed D15 ligt op de Looner es tussen Loon en Taarlo en is goed via de weg te bereiken. Het is het enige hunebed in Nederland dat zichtbaar is vanuit de trein (op de lijn Assen-Groningen).»",
+     "en": "Hunebed D15 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D15 ligt ten noorden van het dorpje Loon in de Nederlandse provincie Drenthe. Het middelgrote hunebed D15 ligt op de Looner es tussen Loon en Taarlo en is goed via de weg te bereiken. Het is het enige hunebed in Nederland dat zichtbaar is vanuit de trein (op de lijn Assen-Groningen).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D15_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.657733,
+     53.042358
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0017",
+    "title": {
+     "uk": "Гунебед D10",
+     "en": "Hunebed D10"
+    },
+    "description": {
+     "uk": "Гунебед D10 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D10 ligt ten noorden van het dorp Gasteren aan de rand van de Gasterse Duinen in de Nederlandse provincie Drenthe. Het is te bereiken via wandelwegen in het natuurgebied Gasterse Duinen (tussen de weg van Gasteren naar Oudemolen en het fietspad van Gasteren naar Schipborg).»",
+     "en": "Hunebed D10 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D10 ligt ten noorden van het dorp Gasteren aan de rand van de Gasterse Duinen in de Nederlandse provincie Drenthe. Het is te bereiken via wandelwegen in het natuurgebied Gasterse Duinen (tussen de weg van Gasteren naar Oudemolen en het fietspad van Gasteren naar Schipborg).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D10_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.618711,
+     53.000344
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0018",
+    "title": {
+     "uk": "Гунебед D16",
+     "en": "Hunebed D16"
+    },
+    "description": {
+     "uk": "Гунебед D16 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D16 ligt ten noordwesten van het dorp Balloo in de Nederlandse provincie Drenthe. Het hunebed ligt wat afgelegen op de Ballooër es, aan de rand van het natuurgebied Kampsheide. Het hunebed is te bereiken via zandwegen vanaf de weg Loon-Balloo of via de Lienstukkenweg vanuit Balloo.»",
+     "en": "Hunebed D16 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D16 ligt ten noordwesten van het dorp Balloo in de Nederlandse provincie Drenthe. Het hunebed ligt wat afgelegen op de Ballooër es, aan de rand van het natuurgebied Kampsheide. Het hunebed is te bereiken via zandwegen vanaf de weg Loon-Balloo of via de Lienstukkenweg vanuit Balloo.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D16_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.838869,
+     52.857433
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0019",
+    "title": {
+     "uk": "Гунебед D32",
+     "en": "Hunebed D32"
+    },
+    "description": {
+     "uk": "Гунебед D32 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D32 is een hunebed iets ten noorden van Odoorn in de Nederlandse provincie Drenthe. Het hunebed D32 ligt ten noorden van Odoorn en ten westen van de Borgerderweg aldaar. Het hunebed is te bereiken via een zandweggetje circa één kilometer vanaf Odoorn in de richting van Borger (een handwijzer geeft de richting aan).»",
+     "en": "Hunebed D32 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D32 is een hunebed iets ten noorden van Odoorn in de Nederlandse provincie Drenthe. Het hunebed D32 ligt ten noorden van Odoorn en ten westen van de Borgerderweg aldaar. Het hunebed is te bereiken via een zandweggetje circa één kilometer vanaf Odoorn in de richting van Borger (een handwijzer geeft de richting aan).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D32_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.671394,
+     53.107861
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0020",
+    "title": {
+     "uk": "Гунебед D3",
+     "en": "Hunebed D3"
+    },
+    "description": {
+     "uk": "Гунебед D3 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D3 ligt op de Steenakkers aan de Schutsweg ten zuiden van Midlaren in de Nederlandse provincie Drenthe. Hunebed D3 ligt - vanaf de weg gezien - achter zijn 'tweelingbroer' en is daardoor nog meer aan het zicht onttrokken. Samen met hunebed D4 wordt dit hunebed de \"Hunenborg\" genoemd.»",
+     "en": "Hunebed D3 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D3 ligt op de Steenakkers aan de Schutsweg ten zuiden van Midlaren in de Nederlandse provincie Drenthe. Hunebed D3 ligt - vanaf de weg gezien - achter zijn 'tweelingbroer' en is daardoor nog meer aan het zicht onttrokken. Samen met hunebed D4 wordt dit hunebed de \"Hunenborg\" genoemd.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D3_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.774386,
+     52.943122
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0021",
+    "title": {
+     "uk": "Гунебед D26",
+     "en": "Hunebed D26"
+    },
+    "description": {
+     "uk": "Гунебед D26 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D26 ligt tamelijk afgelegen aan een zandweg langs de rand van de boswachterij Gieten-Borger ten westen van de N34 tussen de dorpen Drouwen en Borger in de Nederlandse provincie Drenthe.»",
+     "en": "Hunebed D26 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D26 ligt tamelijk afgelegen aan een zandweg langs de rand van de boswachterij Gieten-Borger ten westen van de N34 tussen de dorpen Drouwen en Borger in de Nederlandse provincie Drenthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D26_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.802864,
+     52.9444
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0022",
+    "title": {
+     "uk": "Гунебед D25",
+     "en": "Hunebed D25"
+    },
+    "description": {
+     "uk": "Гунебед D25 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D25 is een van de vijf hunebedden gelegen bij de plaats Bronneger in de Nederlandse provincie Drenthe. Het hunebed D25 vormt samen met D23 en D24 een wat apart en meer in het bos gelegen groepje hunebedden aan de Steenakkersweg, een zandweg naar Bronneger. De hunebedden D22 en D21 liggen iets meer naar het westen aan de rand van een akker.»",
+     "en": "Hunebed D25 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D25 is een van de vijf hunebedden gelegen bij de plaats Bronneger in de Nederlandse provincie Drenthe. Het hunebed D25 vormt samen met D23 en D24 een wat apart en meer in het bos gelegen groepje hunebedden aan de Steenakkersweg, een zandweg naar Bronneger. De hunebedden D22 en D21 liggen iets meer naar het westen aan de rand van een akker.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D25_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.810936,
+     52.925925
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0023",
+    "title": {
+     "uk": "Гунебед D28",
+     "en": "Hunebed D28"
+    },
+    "description": {
+     "uk": "Гунебед D28 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D28 ligt samen met hunebed D29 iets ten oosten van het dorp Borger in de richting van Buinen ten zuiden van de N374 in de Nederlandse provincie Drenthe.»",
+     "en": "Hunebed D28 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D28 ligt samen met hunebed D29 iets ten oosten van het dorp Borger in de richting van Buinen ten zuiden van de N374 in de Nederlandse provincie Drenthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D28_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.811108,
+     52.925881
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0024",
+    "title": {
+     "uk": "Гунебед D29",
+     "en": "Hunebed D29"
+    },
+    "description": {
+     "uk": "Гунебед D29 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D29 ligt samen met hunebed D28 iets ten oosten van het dorp Borger in de richting van Buinen ten zuiden van de N374 in de Nederlandse provincie Drenthe. De hunebedden liggen in een klein bebost gebied midden in een akker, dat te bereiken is via een smal zandpaadje.»",
+     "en": "Hunebed D29 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D29 ligt samen met hunebed D28 iets ten oosten van het dorp Borger in de richting van Buinen ten zuiden van de N374 in de Nederlandse provincie Drenthe. De hunebedden liggen in een klein bebost gebied midden in een akker, dat te bereiken is via een smal zandpaadje.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D29_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.845683,
+     52.891517
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0025",
+    "title": {
+     "uk": "Гунебед D30",
+     "en": "Hunebed D30"
+    },
+    "description": {
+     "uk": "Гунебед D30 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D30 ligt ten noordwesten van het dorp Exloo aan het Bodenpad midden in de boswachterij Exloo in de Nederlandse provincie Drenthe.»",
+     "en": "Hunebed D30 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D30 ligt ten noordwesten van het dorp Exloo aan het Bodenpad midden in de boswachterij Exloo in de Nederlandse provincie Drenthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D30_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.870725,
+     52.867875
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0026",
+    "title": {
+     "uk": "Гунебед D31",
+     "en": "Hunebed D31"
+    },
+    "description": {
+     "uk": "Гунебед D31 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D31 ligt ten zuiden van de Dalakkersweg in het Hunzebos tussen de dorpen Exloo en Valthe in de Nederlandse provincie Drenthe.»",
+     "en": "Hunebed D31 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D31 ligt ten zuiden van de Dalakkersweg in het Hunzebos tussen de dorpen Exloo en Valthe in de Nederlandse provincie Drenthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D31_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.866967,
+     52.842517
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0027",
+    "title": {
+     "uk": "Гунебед D33",
+     "en": "Hunebed D33"
+    },
+    "description": {
+     "uk": "Гунебед D33 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D33 bestaat niet meer, het lag oorspronkelijk op het Valtherveld ten westen van Valthe in de Nederlandse provincie Drenthe. Het lag aan de rand van het voormalige (nu ontwaterde) Valthermeer. Het hunebed D33 lag iets noordwestelijker van het nog bestaande hunebed D34 op het Oosterveld van Valthe.»",
+     "en": "Hunebed D33 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D33 bestaat niet meer, het lag oorspronkelijk op het Valtherveld ten westen van Valthe in de Nederlandse provincie Drenthe. Het lag aan de rand van het voormalige (nu ontwaterde) Valthermeer. Het hunebed D33 lag iets noordwestelijker van het nog bestaande hunebed D34 op het Oosterveld van Valthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D33_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.866967,
+     52.842517
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0028",
+    "title": {
+     "uk": "Гунебед D34",
+     "en": "Hunebed D34"
+    },
+    "description": {
+     "uk": "Гунебед D34 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D34 is een portaalgraf. Het ligt op het Oosterveld tussen Odoorn en Valthe in de Nederlandse provincie Drenthe. Het hunebed is te bereiken via een zandweg vanaf de weg tussen Valthe en Odoorn.»",
+     "en": "Hunebed D34 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D34 is een portaalgraf. Het ligt op het Oosterveld tussen Odoorn en Valthe in de Nederlandse provincie Drenthe. Het hunebed is te bereiken via een zandweg vanaf de weg tussen Valthe en Odoorn.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D34_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.870622,
+     52.835156
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0029",
+    "title": {
+     "uk": "Гунебед D35",
+     "en": "Hunebed D35"
+    },
+    "description": {
+     "uk": "Гунебед D35 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D35 ligt aan de noordzijde van het Valtherbos tussen Klijndijk en Valthe in de Nederlandse provincie Drenthe. Het hunebed is te bereiken via een zandweg vanaf de Melkweg tussen Valthe en Klijndijk.»",
+     "en": "Hunebed D35 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D35 ligt aan de noordzijde van het Valtherbos tussen Klijndijk en Valthe in de Nederlandse provincie Drenthe. Het hunebed is te bereiken via een zandweg vanaf de Melkweg tussen Valthe en Klijndijk.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D35_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.894667,
+     52.839708
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0030",
+    "title": {
+     "uk": "Гунебед D36",
+     "en": "Hunebed D36"
+    },
+    "description": {
+     "uk": "Гунебед D36 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D36 ligt samen met hunebed D37 aan de rand van de Ooster esch ten zuiden van Valthe in de Nederlandse provincie Drenthe. De hunebedden D36 en D37 worden ook wel De Valther Tweeling genoemd. De hunebedden lagen aan de rand van de Kampervenen (een moeras).»",
+     "en": "Hunebed D36 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D36 ligt samen met hunebed D37 aan de rand van de Ooster esch ten zuiden van Valthe in de Nederlandse provincie Drenthe. De hunebedden D36 en D37 worden ook wel De Valther Tweeling genoemd. De hunebedden lagen aan de rand van de Kampervenen (een moeras).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D36_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.894667,
+     52.839708
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0031",
+    "title": {
+     "uk": "Гунебед D37",
+     "en": "Hunebed D37"
+    },
+    "description": {
+     "uk": "Гунебед D37 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D37 ligt samen met hunebed D36 aan de rand van de Ooster esch ten zuiden van Valthe in de Nederlandse provincie Drenthe. De hunebedden D36 en D37 worden ook wel De Valther Tweeling genoemd. De hunebedden lagen aan de rand van de Kampervenen (een moeras).»",
+     "en": "Hunebed D37 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D37 ligt samen met hunebed D36 aan de rand van de Ooster esch ten zuiden van Valthe in de Nederlandse provincie Drenthe. De hunebedden D36 en D37 worden ook wel De Valther Tweeling genoemd. De hunebedden lagen aan de rand van de Kampervenen (een moeras).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D37_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.773528,
+     52.819903
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0032",
+    "title": {
+     "uk": "Гунебед D49",
+     "en": "Hunebed D49"
+    },
+    "description": {
+     "uk": "Гунебед D49 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D49, ook bekend als de Papeloze kerk, is een ganggraf in het natuurgebied Sleenerzand tussen Schoonoord en Noord-Sleen. Het hunebed is gebouwd tijdens de trechterbekercultuur.»",
+     "en": "Hunebed D49 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D49, ook bekend als de Papeloze kerk, is een ganggraf in het natuurgebied Sleenerzand tussen Schoonoord en Noord-Sleen. Het hunebed is gebouwd tijdens de trechterbekercultuur.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D49_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.531256,
+     53.061814
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0033",
+    "title": {
+     "uk": "Гунебед D5",
+     "en": "Hunebed D5"
+    },
+    "description": {
+     "uk": "Гунебед D5 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D5 ligt nabij het dorpje Zeijen in de provincie Drenthe. Enkele grote keien en een naambordje markeren de ingang naar het terrein. Deze keien hebben echter niets met hunebedden te maken.»",
+     "en": "Hunebed D5 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D5 ligt nabij het dorpje Zeijen in de provincie Drenthe. Enkele grote keien en een naambordje markeren de ingang naar het terrein. Deze keien hebben echter niets met hunebedden te maken.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D5_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.886939,
+     52.793156
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0034",
+    "title": {
+     "uk": "Гунебед D43",
+     "en": "Hunebed D43"
+    },
+    "description": {
+     "uk": "Гунебед D43 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D43 nabij Emmen werd vroeger Bruyn Stien en De Grafkelders genoemd en is het enige hunebed in Nederland van het langgraf-type. In Duitsland en Denemarken zijn meer langgraven. Het dateert van ongeveer 3000 voor onze jaartelling.»",
+     "en": "Hunebed D43 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D43 nabij Emmen werd vroeger Bruyn Stien en De Grafkelders genoemd en is het enige hunebed in Nederland van het langgraf-type. In Duitsland en Denemarken zijn meer langgraven. Het dateert van ongeveer 3000 voor onze jaartelling.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D43_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.331,
+     52.858897
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0035",
+    "title": {
+     "uk": "Гунебед D52",
+     "en": "Hunebed D52"
+    },
+    "description": {
+     "uk": "Гунебед D52 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D52 ligt in de nabijheid van Diever in de Nederlandse provincie Drenthe. Het hunebed ligt ten noordoosten van Diever aan de Groningerweg.»",
+     "en": "Hunebed D52 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D52 ligt in de nabijheid van Diever in de Nederlandse provincie Drenthe. Het hunebed ligt ten noordoosten van Diever aan de Groningerweg.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D52_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.671478,
+     53.107775
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0036",
+    "title": {
+     "uk": "Гунебед D4",
+     "en": "Hunebed D4"
+    },
+    "description": {
+     "uk": "Гунебед D4 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D4 ligt op de Steenakkers aan de Schutsweg ten zuiden van Midlaren in de Nederlandse provincie Drenthe. Hunebed D4 ligt - vanaf de weg gezien - voor zijn 'tweelingbroer' en zorgt ervoor dat deze nog wat meer aan het zicht is onttrokken. Samen met hunebed D3 wordt dit hunebed de \"Hunenborg\" genoemd.»",
+     "en": "Hunebed D4 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D4 ligt op de Steenakkers aan de Schutsweg ten zuiden van Midlaren in de Nederlandse provincie Drenthe. Hunebed D4 ligt - vanaf de weg gezien - voor zijn 'tweelingbroer' en zorgt ervoor dat deze nog wat meer aan het zicht is onttrokken. Samen met hunebed D3 wordt dit hunebed de \"Hunenborg\" genoemd.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D4_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.887856,
+     52.811056
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0037",
+    "title": {
+     "uk": "Гунебед D38",
+     "en": "Hunebed D38"
+    },
+    "description": {
+     "uk": "Гунебед D38 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D38 ligt samen met hunebedden D39 en D40 op een open plek in het Valtherbos, iets ten noorden van Emmen in de Nederlandse provincie Drenthe. Het inmiddels verdwenen hunebed D39a lag hier vlakbij. D38 is de noordelijkste van de drie hunebedden.»",
+     "en": "Hunebed D38 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D38 ligt samen met hunebedden D39 en D40 op een open plek in het Valtherbos, iets ten noorden van Emmen in de Nederlandse provincie Drenthe. Het inmiddels verdwenen hunebed D39a lag hier vlakbij. D38 is de noordelijkste van de drie hunebedden.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D38_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.887856,
+     52.811056
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0038",
+    "title": {
+     "uk": "Гунебед D39",
+     "en": "Hunebed D39"
+    },
+    "description": {
+     "uk": "Гунебед D39 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D39 ligt samen met hunebedden D38 en D40 op een open plek in het Valtherbos iets ten noorden van Emmen in de Nederlandse provincie Drenthe. Het inmiddels verdwenen hunebed D39a lag hier vlakbij. D39 is het middelste van de drie hunebedden.»",
+     "en": "Hunebed D39 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D39 ligt samen met hunebedden D38 en D40 op een open plek in het Valtherbos iets ten noorden van Emmen in de Nederlandse provincie Drenthe. Het inmiddels verdwenen hunebed D39a lag hier vlakbij. D39 is het middelste van de drie hunebedden.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D39_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.887856,
+     52.811056
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0039",
+    "title": {
+     "uk": "Гунебед D40",
+     "en": "Hunebed D40"
+    },
+    "description": {
+     "uk": "Гунебед D40 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D40 ligt samen met hunebedden D38 en D39 op een open plek in het Valtherbos iets ten noorden van Emmen in de Nederlandse provincie Drenthe. Het inmiddels verdwenen hunebed D39a lag hier vlakbij. D40 is de zuidelijkste van de drie.»",
+     "en": "Hunebed D40 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D40 ligt samen met hunebedden D38 en D39 op een open plek in het Valtherbos iets ten noorden van Emmen in de Nederlandse provincie Drenthe. Het inmiddels verdwenen hunebed D39a lag hier vlakbij. D40 is de zuidelijkste van de drie.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D40_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.885472,
+     52.799547
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0040",
+    "title": {
+     "uk": "Гунебед D41",
+     "en": "Hunebed D41"
+    },
+    "description": {
+     "uk": "Гунебед D41 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D41 ligt aan de rand van de wijk Emmermeer in Emmen in de Nederlandse provincie Drenthe. Het hunebed ligt net ten westen van de Odoornerweg, in de nabijheid van een woonwagenkamp.»",
+     "en": "Hunebed D41 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D41 ligt aan de rand van de wijk Emmermeer in Emmen in de Nederlandse provincie Drenthe. Het hunebed ligt net ten westen van de Odoornerweg, in de nabijheid van een woonwagenkamp.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D41_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.870372,
+     52.795906
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0041",
+    "title": {
+     "uk": "Гунебед D42",
+     "en": "Hunebed D42"
+    },
+    "description": {
+     "uk": "Гунебед D42 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D42 ligt aan de westzijde van de Emmer- of Schimmer esch nabij Emmen in de Nederlandse provincie Drenthe. Het hunebed ligt aan de zuidoostrand van het Schietbaanbos op een terrein met als naam Stien Camp (stenenveld). Midden in het hunebed bevindt zich een zware eikenboom.»",
+     "en": "Hunebed D42 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D42 ligt aan de westzijde van de Emmer- of Schimmer esch nabij Emmen in de Nederlandse provincie Drenthe. Het hunebed ligt aan de zuidoostrand van het Schietbaanbos op een terrein met als naam Stien Camp (stenenveld). Midden in het hunebed bevindt zich een zware eikenboom.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D42_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.871911,
+     52.787456
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0042",
+    "title": {
+     "uk": "Гунебед D44",
+     "en": "Hunebed D44"
+    },
+    "description": {
+     "uk": "Гунебед D44 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D44 ligt in de buurtschap Westenesch nabij Emmen in de Nederlandse provincie Drenthe. Het hunebed ligt op een boerenerf aan de Schietbaanweg. Het is het enige hunebed in Nederland in particulier bezit.»",
+     "en": "Hunebed D44 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D44 ligt in de buurtschap Westenesch nabij Emmen in de Nederlandse provincie Drenthe. Het hunebed ligt op een boerenerf aan de Schietbaanweg. Het is het enige hunebed in Nederland in particulier bezit.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D44_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.907444,
+     52.791283
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0043",
+    "title": {
+     "uk": "Гунебед D45",
+     "en": "Hunebed D45"
+    },
+    "description": {
+     "uk": "Гунебед D45 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D45 ligt in de Emmerdennen een bosgebied in de plaats Emmen in de Nederlandse provincie Drenthe. Dit is het op twee na grootste hunebed van Nederland.»",
+     "en": "Hunebed D45 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D45 ligt in de Emmerdennen een bosgebied in de plaats Emmen in de Nederlandse provincie Drenthe. Dit is het op twee na grootste hunebed van Nederland.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D45_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.937017,
+     52.78395
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0044",
+    "title": {
+     "uk": "Гунебед D46",
+     "en": "Hunebed D46"
+    },
+    "description": {
+     "uk": "Гунебед D46 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D46 ligt, evenals hunebed D47, sinds circa 1960 midden in een woongebied; de wijk Angelslo in de plaats Emmen in de Nederlandse provincie Drenthe. Beide liggen tussen flatgebouwen in. Het hunebed ligt in een plantsoentje aan de Fokkingeslag.»",
+     "en": "Hunebed D46 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D46 ligt, evenals hunebed D47, sinds circa 1960 midden in een woongebied; de wijk Angelslo in de plaats Emmen in de Nederlandse provincie Drenthe. Beide liggen tussen flatgebouwen in. Het hunebed ligt in een plantsoentje aan de Fokkingeslag.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D46_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.93765,
+     52.781122
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0045",
+    "title": {
+     "uk": "Гунебед D47",
+     "en": "Hunebed D47"
+    },
+    "description": {
+     "uk": "Гунебед D47 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D47 ligt, evenals hunebed D46, sinds ca. 1960 midden in een woongebied; de wijk Angelslo in de plaats Emmen in de Nederlandse provincie Drenthe. Beide liggen tussen flatgebouwen in.»",
+     "en": "Hunebed D47 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D47 ligt, evenals hunebed D46, sinds ca. 1960 midden in een woongebied; de wijk Angelslo in de plaats Emmen in de Nederlandse provincie Drenthe. Beide liggen tussen flatgebouwen in.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D47_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.786844,
+     52.796
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0046",
+    "title": {
+     "uk": "Гунебед D50",
+     "en": "Hunebed D50"
+    },
+    "description": {
+     "uk": "Гунебед D50 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D50 ligt evenals hunebed D51 aan de Hunebedweg, ten noordwesten van Noord-Sleen in de Nederlandse provincie Drenthe. De Hunebedweg is na de aanleg van de N381 een doodlopende weg geworden.»",
+     "en": "Hunebed D50 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D50 ligt evenals hunebed D51 aan de Hunebedweg, ten noordwesten van Noord-Sleen in de Nederlandse provincie Drenthe. De Hunebedweg is na de aanleg van de N381 een doodlopende weg geworden.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D50_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.786278,
+     52.794781
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0047",
+    "title": {
+     "uk": "Гунебед D51",
+     "en": "Hunebed D51"
+    },
+    "description": {
+     "uk": "Гунебед D51 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D51 ligt evenals hunebed D50 aan de Hunebedweg, ten noordwesten van Noord-Sleen in de Nederlandse provincie Drenthe. De Hunebedweg is na de aanleg van de N381 een doodlopende weg geworden.»",
+     "en": "Hunebed D51 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D51 ligt evenals hunebed D50 aan de Hunebedweg, ten noordwesten van Noord-Sleen in de Nederlandse provincie Drenthe. De Hunebedweg is na de aanleg van de N381 een doodlopende weg geworden.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D51_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.887322,
+     52.792933
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0048",
+    "title": {
+     "uk": "Гунебед D43a",
+     "en": "Hunebed D43a"
+    },
+    "description": {
+     "uk": "Гунебед D43a — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D43a is een verdwenen hunebed, het lag ten zuiden van D43 in Emmen. L. Willinge beschreef het hunebed in 1819 en L.J.F. Janssen tekende het hunebed in 1847. Het hunebed werd later gesloopt, misschien zijn de stenen gebruikt bij de restauratie van D43 in 1869.»",
+     "en": "Hunebed D43a is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D43a is een verdwenen hunebed, het lag ten zuiden van D43 in Emmen. L. Willinge beschreef het hunebed in 1819 en L.J.F. Janssen tekende het hunebed in 1847. Het hunebed werd later gesloopt, misschien zijn de stenen gebruikt bij de restauratie van D43 in 1869.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D43a_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.887681,
+     52.811144
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0049",
+    "title": {
+     "uk": "Гунебед D39a",
+     "en": "Hunebed D39a"
+    },
+    "description": {
+     "uk": "Гунебед D39a — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D39a is een verdwenen hunebed in Nederland. Het lag vlak bij de hunebedden D38, D39 en D40 in het Valtherbos, iets ten noorden van Emmen in de Nederlandse provincie Drenthe. De resten zijn gevonden in oktober 1992.»",
+     "en": "Hunebed D39a is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D39a is een verdwenen hunebed in Nederland. Het lag vlak bij de hunebedden D38, D39 en D40 in het Valtherbos, iets ten noorden van Emmen in de Nederlandse provincie Drenthe. De resten zijn gevonden in oktober 1992.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D39a_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.926408,
+     53.335908
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0050",
+    "title": {
+     "uk": "Гунебед G5",
+     "en": "Hunebed G5"
+    },
+    "description": {
+     "uk": "Гунебед G5 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed G5 is het laatste hunebed dat in Nederland is ontdekt, en tevens het noordelijkste. Het werd in 1982 door archeologen van de Rijksuniversiteit Groningen opgegraven onder de wierde van Heveskesklooster in de Delfzijlster Oosterhoek. Men was op zoek naar de overblijfselen van een klooster van de Johannieterorde.»",
+     "en": "Hunebed G5 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed G5 is het laatste hunebed dat in Nederland is ontdekt, en tevens het noordelijkste. Het werd in 1982 door archeologen van de Rijksuniversiteit Groningen opgegraven onder de wierde van Heveskesklooster in de Delfzijlster Oosterhoek. Men was op zoek naar de overblijfselen van een klooster van de Johannieterorde.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/G5_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.658917,
+     53.115575
+    ]
+   },
+   "properties": {
+    "id": "nl-gr-0001",
+    "title": {
+     "uk": "Гунебед G1",
+     "en": "Hunebed G1"
+    },
+    "description": {
+     "uk": "Гунебед G1 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Гронінген. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed G1 ligt ten zuidwesten van Noordlaren in de Nederlandse provincie Groningen. Het hunebed ligt op een heuveltje in een bosje, dat via een zandweg vanuit Noordlaren is te bereiken. Het hunebed is binnen Nederland het meest noordelijke van de nog op de oorspronkelijke plaats gelegen hunebedden, en ook het enige Groningse hunebed nog op de oorspronkelijke plek (overigens op nog geen 200 meter van de Drentse grens).»",
+     "en": "Hunebed G1 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Groningen. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed G1 ligt ten zuidwesten van Noordlaren in de Nederlandse provincie Groningen. Het hunebed ligt op een heuveltje in een bosje, dat via een zandweg vanuit Noordlaren is te bereiken. Het hunebed is binnen Nederland het meest noordelijke van de nog op de oorspronkelijke plaats gelegen hunebedden, en ook het enige Groningse hunebed nog op de oorspronkelijke plek (overigens op nog geen 200 meter van de Drentse grens).”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/G1_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Гронінген",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.218028,
+     52.792686
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0051",
+    "title": {
+     "uk": "Гунебед D53",
+     "en": "Hunebed D53"
+    },
+    "description": {
+     "uk": "Гунебед D53 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D53 ligt in Darp op de Havelterberg in de Nederlandse provincie Drenthe. Het hunebed ligt ten noorden van de Hunebeddenweg, een zijweg van de Van Helomaweg. Aan de overzijde van de weg staat het kleinere D54.»",
+     "en": "Hunebed D53 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D53 ligt in Darp op de Havelterberg in de Nederlandse provincie Drenthe. Het hunebed ligt ten noorden van de Hunebeddenweg, een zijweg van de Van Helomaweg. Aan de overzijde van de weg staat het kleinere D54.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D53_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.220369,
+     52.792553
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0052",
+    "title": {
+     "uk": "Гунебед D54",
+     "en": "Hunebed D54"
+    },
+    "description": {
+     "uk": "Гунебед D54 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D54 ligt in Darp op de Havelterberg in de Nederlandse provincie Drenthe. Het hunebed ligt ten zuiden van de Hunebeddenweg, een zijweg van de Van Helomaweg. Het ligt op een kleine zandvlakte omgeven door gras.»",
+     "en": "Hunebed D54 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D54 ligt in Darp op de Havelterberg in de Nederlandse provincie Drenthe. Het hunebed ligt ten zuiden van de Hunebeddenweg, een zijweg van de Van Helomaweg. Het ligt op een kleine zandvlakte omgeven door gras.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D54_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.715381,
+     53.061444
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0053",
+    "title": {
+     "uk": "Гунебед D9",
+     "en": "Hunebed D9"
+    },
+    "description": {
+     "uk": "Гунебед D9 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D9 is een portaalgraf. Het ligt in de bebouwde kom aan de noordzijde van het dorp Annen in de Nederlandse provincie Drenthe.  Het hunebed is een klein en in-compleet hunebed aan de Zuidlaarderweg in Annen.»",
+     "en": "Hunebed D9 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D9 is een portaalgraf. Het ligt in de bebouwde kom aan de noordzijde van het dorp Annen in de Nederlandse provincie Drenthe.  Het hunebed is een klein en in-compleet hunebed aan de Zuidlaarderweg in Annen.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D9_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.699036,
+     53.060056
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0054",
+    "title": {
+     "uk": "Гунебед D8",
+     "en": "Hunebed D8"
+    },
+    "description": {
+     "uk": "Гунебед D8 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D8 is een portaalgraf. Het hunebed ligt in het natuurgebied De Strubben-Kniphorstbos tussen de dorpen Annen en Schipborg ten westen van de N34 in de Nederlandse provincie Drenthe.»",
+     "en": "Hunebed D8 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D8 is een portaalgraf. Het hunebed ligt in het natuurgebied De Strubben-Kniphorstbos tussen de dorpen Annen en Schipborg ten westen van de N34 in de Nederlandse provincie Drenthe.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D8_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.684608,
+     53.061286
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0055",
+    "title": {
+     "uk": "Гунебед D7",
+     "en": "Hunebed D7"
+    },
+    "description": {
+     "uk": "Гунебед D7 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D7 is een portaalgraf. Het hunebed ligt in het natuurgebied De Strubben-Kniphorstbos ten oosten van de Borgweg nabij het dorp Schipborg in de Nederlandse provincie Drenthe. Het hunebed ligt tamelijk afgelegen in het natuurgebied De Strubben-Kniphorstbos, een voormalig militair oefenterrein dat in 2006 is overgedragen aan Staatsbosbeheer.»",
+     "en": "Hunebed D7 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D7 is een portaalgraf. Het hunebed ligt in het natuurgebied De Strubben-Kniphorstbos ten oosten van de Borgweg nabij het dorp Schipborg in de Nederlandse provincie Drenthe. Het hunebed ligt tamelijk afgelegen in het natuurgebied De Strubben-Kniphorstbos, een voormalig militair oefenterrein dat in 2006 is overgedragen aan Staatsbosbeheer.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D7_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.629428,
+     53.074656
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0056",
+    "title": {
+     "uk": "Гунебед D6",
+     "en": "Hunebed D6"
+    },
+    "description": {
+     "uk": "Гунебед D6 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed D6 ligt ten oosten van het dorp Tynaarlo in de Nederlandse provincie Drenthe. Het hunebed is nooit gerestaureerd. Het hunebed ligt even ten oosten van de spoorlijn tussen Assen en Groningen, maar is vanwege de bebossing niet, zoals het hunebed bij Loon, vanuit de trein te zien.»",
+     "en": "Hunebed D6 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed D6 ligt ten oosten van het dorp Tynaarlo in de Nederlandse provincie Drenthe. Het hunebed is nooit gerestaureerd. Het hunebed ligt even ten oosten van de spoorlijn tussen Assen en Groningen, maar is vanwege de bebossing niet, zoals het hunebed bij Loon, vanuit de trein te zien.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D6_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.638997,
+     53.132881
+    ]
+   },
+   "properties": {
+    "id": "nl-gr-0002",
+    "title": {
+     "uk": "Гунебед G3",
+     "en": "Hunebed G3"
+    },
+    "description": {
+     "uk": "Гунебед G3 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Гронінген. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed G3 is een voormalig hunebed in de Nederlandse provincie Groningen. Het lag ten zuidoosten van Glimmen, ten zuiden van de Oude Schoolweg in de kadastrale sectie H4 nr. 2162.»",
+     "en": "Hunebed G3 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Groningen. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed G3 is een voormalig hunebed in de Nederlandse provincie Groningen. Het lag ten zuidoosten van Glimmen, ten zuiden van de Oude Schoolweg in de kadastrale sectie H4 nr. 2162.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/G3_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Гронінген",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.639708,
+     53.151097
+    ]
+   },
+   "properties": {
+    "id": "nl-gr-0003",
+    "title": {
+     "uk": "Гунебед G4",
+     "en": "Hunebed G4"
+    },
+    "description": {
+     "uk": "Гунебед G4 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Гронінген. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed G4 is de naam die wordt gegeven aan een vermoedelijk hunebed in de Nederlandse provincie Groningen. Het zou ten zuidwesten van Onnen hebben gelegen, ten noordwesten van een bocht in de Onneresweg. Een onderzoek naar het hunebed in 2012 leverde geen duidelijke resultaten op, maar versterkte wel het vermoeden dat er een hunebed is geweest op of ergens nabij deze plek.»",
+     "en": "Hunebed G4 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Groningen. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed G4 is de naam die wordt gegeven aan een vermoedelijk hunebed in de Nederlandse provincie Groningen. Het zou ten zuidwesten van Onnen hebben gelegen, ten noordwesten van een bocht in de Onneresweg. Een onderzoek naar het hunebed in 2012 leverde geen duidelijke resultaten op, maar versterkte wel het vermoeden dat er een hunebed is geweest op of ergens nabij deze plek.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/G4_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Гронінген",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.291414,
+     52.8723
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0057",
+    "title": {
+     "uk": "Гунебед D52a",
+     "en": "Hunebed D52a"
+    },
+    "description": {
+     "uk": "Гунебед D52a — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «D52a is een verdwenen hunebed in het Wapserveld bij Diever, dat in 1735 werd gesloopt. Er is nu alleen een heuvel overgebleven. Deze dekheuvel wordt Pottiesbargien (\"het Potjesbergje\") genoemd, er is namelijk zeer veel aardewerk gevonden.»",
+     "en": "Hunebed D52a is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “D52a is een verdwenen hunebed in het Wapserveld bij Diever, dat in 1735 werd gesloopt. Er is nu alleen een heuvel overgebleven. Deze dekheuvel wordt Pottiesbargien (\"het Potjesbergje\") genoemd, er is namelijk zeer veel aardewerk gevonden.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D52a_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.699758,
+     53.059547
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0058",
+    "title": {
+     "uk": "Гунебед D8a",
+     "en": "Hunebed D8a"
+    },
+    "description": {
+     "uk": "Гунебед D8a — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «D8a is een verdwenen hunebed, het lag ten zuiden van D8 bij Anloo in de Nederlandse provincie Drenthe. A. Klein Wassink, J.E. Musch en J. Musch vonden de overblijfselen in 1992. Samen met D8b was het geheel ontmanteld, er restte enkel een kuil.»",
+     "en": "Hunebed D8a is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “D8a is een verdwenen hunebed, het lag ten zuiden van D8 bij Anloo in de Nederlandse provincie Drenthe. A. Klein Wassink, J.E. Musch en J. Musch vonden de overblijfselen in 1992. Samen met D8b was het geheel ontmanteld, er restte enkel een kuil.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D8a_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.700208,
+     53.059664
+    ]
+   },
+   "properties": {
+    "id": "nl-dr-0059",
+    "title": {
+     "uk": "Гунебед D8b",
+     "en": "Hunebed D8b"
+    },
+    "description": {
+     "uk": "Гунебед D8b — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Дренте. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «D8b is een verdwenen hunebed, het lag ten zuiden van D8 bij Anloo in de Nederlandse provincie Drenthe. A. Klein Wassink, J.E. Musch en J. Musch vonden de overblijfselen in 1992. Samen met D8a was het geheel ontmanteld, er restte enkel een flauwe, ovale verlaging met daaromheen de aanzet van een lage dekheuvel.»",
+     "en": "Hunebed D8b is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Drenthe. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “D8b is een verdwenen hunebed, het lag ten zuiden van D8 bij Anloo in de Nederlandse provincie Drenthe. A. Klein Wassink, J.E. Musch en J. Musch vonden de overblijfselen in 1992. Samen met D8a was het geheel ontmanteld, er restte enkel een flauwe, ovale verlaging met daaromheen de aanzet van een lage dekheuvel.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/D8b_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Дренте",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.6407,
+     53.133225
+    ]
+   },
+   "properties": {
+    "id": "nl-gr-0004",
+    "title": {
+     "uk": "Гунебед G2",
+     "en": "Hunebed G2"
+    },
+    "description": {
+     "uk": "Гунебед G2 — неолітична мегалітична гробниця (бл. 3400–3100 рр. до н. е.) культури лійчастих кубків, провінція Гронінген. Мегаліти часто згадують в езотеричній літературі як місця сили; з погляду археології це поховання. Вікіпедія (nl): «Hunebed G2 is een voormalig hunebed in de Nederlandse provincie Groningen. Waarschijnlijk is het hunebed gesloopt in de 11e eeuw. Het had een vloerlengte van 11 meter.»",
+     "en": "Hunebed G2 is a Neolithic megalithic tomb (c. 3400–3100 BC) of the Funnelbeaker culture in Groningen. Megaliths are often cited in esoteric literature as places of power; archaeologically they are burials. Wikipedia (nl): “Hunebed G2 is een voormalig hunebed in de Nederlandse provincie Groningen. Waarschijnlijk is het hunebed gesloopt in de 11e eeuw. Het had een vloerlengte van 11 meter.”"
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://nl.wikipedia.org/wiki/G2_(hunebed)"
+    ],
+    "credibility": 1,
+    "precision_m": 100,
+    "reporter": "wikipedia-harvest",
+    "region": "Гронінген",
+    "tags": [
+     "мегаліт",
+     "гунебед",
+     "неоліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      4.58,
      51.578
     ]
@@ -558,6 +2976,81 @@
     ],
     "media": [],
     "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.01778,
+     48.25225
+    ]
+   },
+   "properties": {
+    "id": "ua-kir-0001",
+    "title": {
+     "uk": "Межові камені",
+     "en": "Boundary Stones (Mezhovi Kameni)"
+    },
+    "description": {
+     "uk": "Межові́ ка́мені або Межняки́ — археологічна пам'ятка України доби пізнього неоліту. Являє собою алею менгірів — два ряди з 15 пар паралельних кам'яних монолітів довжиною 779 м. Можливо, культова споруда, пов'язана з божеством Сонця. Мегалітичні об'єкти часто розглядають в езотеричній літературі як місця сили.",
+     "en": "Megalithic site in Ukraine (source: Ukrainian Wikipedia). Often described in esoteric literature as a place of power. Original summary: Межові́ ка́мені або Межняки́ — археологічна пам'ятка України доби пізнього неоліту. Являє собою алею менгірів — два ряди з 15 пар паралельних кам'яних монолітів довжиною 779 м. Можливо, культова споруда, пов'язана з божеством Сонця."
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%BE%D0%B2%D1%96_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%96"
+    ],
+    "credibility": 1,
+    "precision_m": 300,
+    "reporter": "wikipedia-harvest",
+    "region": "Кіровоградська обл.",
+    "tags": [
+     "мегаліт"
+    ],
+    "media": [],
+    "status": "published"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.849,
+     44.5083
+    ]
+   },
+   "properties": {
+    "id": "ua-crm-0004",
+    "title": {
+     "uk": "Таврські кам'яні ящики",
+     "en": "Taurian stone boxes (Tash-Koy)"
+    },
+    "description": {
+     "uk": "Таврські кам'яні ящики (крим. Tavrlar taş qutuları) або Таш-Кой (крим. Taş köy) — пам'ятники стародавньої таврської культури, поширеної на території Криму в VI ст. Мегалітичні об'єкти часто розглядають в езотеричній літературі як місця сили.",
+     "en": "Megalithic site in Ukraine (source: Ukrainian Wikipedia). Often described in esoteric literature as a place of power. Original summary: Таврські кам'яні ящики (крим. Tavrlar taş qutuları) або Таш-Кой (крим. Taş köy) — пам'ятники стародавньої таврської культури, поширеної на території Криму в VI ст."
+    },
+    "category": "place_of_power",
+    "observed_at": null,
+    "added_at": "2026-11-21",
+    "source_type": "media",
+    "sources": [
+     "https://uk.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B2%D1%80%D1%81%D1%8C%D0%BA%D1%96_%D0%BA%D0%B0%D0%BC%27%D1%8F%D0%BD%D1%96_%D1%8F%D1%89%D0%B8%D0%BA%D0%B8"
+    ],
+    "credibility": 1,
+    "precision_m": 500,
+    "reporter": "wikipedia-harvest",
+    "region": "Крим",
+    "tags": [
+     "мегаліт"
+    ],
+    "media": [],
+    "status": "published",
+    "safety_note": "Тимчасово окупована територія — відвідування неможливе й небезпечне."
    }
   },
   {

@@ -1,9 +1,15 @@
 import type { PointFeature } from '../types';
 import { getLang, t } from '../i18n';
-import { fetchEnrichment } from './enrich';
+import { fetchEnrichment, generateText, hasBackend } from './enrich';
 import { CATEGORY_COLORS, DEBUNKED_COLOR } from '../map/categories';
 
 const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+
+/** Мінімальний markdown: екрануємо все, потім **жирний**, ## заголовки, абзаци. */
+function md(src: string): string {
+  return esc(src).split(/\n{2,}/).map((blk) => blk.replace(/^#{1,4}\s*(.+)$/gm, '<b>$1</b>')
+    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>')).map((x) => `<p>${x}</p>`).join('');
+}
 
 function precision(m: number): string {
   return m >= 1000 ? t('panel.km', { n: +(m / 1000).toFixed(1) }) : t('panel.meters', { n: m });
@@ -38,8 +44,13 @@ export function renderPanel(el: HTMLElement, f: PointFeature, onClose: () => voi
     btn.disabled = true; box.textContent = t('enrich.loading');
     try {
       const e = await fetchEnrichment(f, lang);
-      if (!e.extract && !e.photos.length) { box.textContent = t('enrich.none'); btn.disabled = false; return; }
-      box.innerHTML = `${e.extract ? `<h3>${esc(t('enrich.about'))}</h3><p><b>${esc(e.title ?? '')}</b></p><p>${esc(e.extract)}</p>${e.pageUrl ? `<a href="${esc(e.pageUrl)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>` : ''}` : ''}
+      let ai = '';
+      if (hasBackend()) {
+        try { ai = await generateText(f, lang, e.extract); }
+        catch (err) { ai = (err as Error).message === 'rate_limit' ? t('enrich.rate') : ''; }
+      }
+      if (!e.extract && !e.photos.length && !ai) { box.textContent = t('enrich.none'); btn.disabled = false; return; }
+      box.innerHTML = `${ai ? `<h3>${esc(t('enrich.ai'))}</h3><div class="ai">${md(ai)}</div><small>${esc(t('enrich.ainote'))}</small>` : ''}${e.extract ? `<h3>${esc(t('enrich.about'))}</h3><p><b>${esc(e.title ?? '')}</b></p><p>${esc(e.extract)}</p>${e.pageUrl ? `<a href="${esc(e.pageUrl)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>` : ''}` : ''}
         ${e.photos.length ? `<h3>${esc(t('enrich.photos'))}</h3><div class="photos">${e.photos.map((p) =>
           `<figure><a href="${esc(p.page)}" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="${esc(p.thumb)}" alt="${esc(p.title)}"></a><figcaption>${esc(p.author)} ${esc(p.license)}</figcaption></figure>`).join('')}</div>` : ''}
         <small>${esc(t('enrich.note'))}</small>`;

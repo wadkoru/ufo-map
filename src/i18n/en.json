@@ -56,5 +56,8 @@
   "enrich.error": "Could not load data. Try again later.",
   "enrich.about": "Background (Wikipedia)",
   "enrich.photos": "Photos from Wikimedia Commons",
-  "enrich.note": "Matched automatically by coordinates; may refer to nearby objects."
+  "enrich.note": "Matched automatically by coordinates; may refer to nearby objects.",
+  "enrich.ai": "Description by Claude (AI)",
+  "enrich.rate": "Too many requests — try again in an hour.",
+  "enrich.ainote": "AI-generated from the point's data; verify against sources."
 }

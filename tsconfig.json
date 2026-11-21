@@ -11,5 +11,6 @@
     "noEmit": true,
     "types": ["vite/client", "node", "geojson"]
   },
+  "exclude": ["backend"],
   "include": ["src", "scripts", "tests", "vite.config.ts"]
 }
